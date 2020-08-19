@@ -100,10 +100,18 @@
 
 
 .hero-title {
-    margin: 10%;
+    margin-left: 10%;
+    margin-top: 8%;
     color: white;
     font-family: 'Oswald', sans-serif;
 }
+
+.hero-title2 {
+    margin-left: 15%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
 
 /*footer*/
 

@@ -14,8 +14,8 @@ class Home extends React.Component {
         return (
             <>
                 <main>
-
-                    <div className="hero-image">
+                    <div>
+                        <div className="profile-logo"><img src = "/images/Logo2.png"></img></div>
                         <div className="hero-text"></div>
                         <img className="home-image" src="/images/sidekix-media-g51F6-WYzyU-unsplash.jpg" />
                         <div className="home-page-headline">Oasis Savon</div>

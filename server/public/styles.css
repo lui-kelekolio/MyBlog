@@ -1,22 +1,4 @@
 
-.home-image {
-    height: 40%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  .home-page-headline {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Love Ya Like A Sister';
-    color: white;
-    font-size: 5em;
-  }
-
   .nav li {
     float: right;
     display: block;
@@ -26,40 +8,34 @@
     text-decoration: none;
     font-family: 'Love Ya Like A Sister';
     font-size: 25px;
+    padding: 15px;
+    margin-right: 12px;
   }
   
   .nav-link {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    
   }
   
   .nav-link:hover {
-    color: #f46f30;
-    background-color: white;
-    transition: ease-in 0.1s;
-  }
-
-  .nav-link2 {
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 25px;
-  }
-  
-  .nav-link2:hover {
     color: #c32aa3;
     background-color: white;
     transition: ease-in 0.1s;
   }
-  
+
+
   
   .logo {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
     border-radius: 100%;
-    
   }
 
   .nav {
@@ -68,8 +44,10 @@
     flex-direction: row;
     align-items: center;
     background: #c32aa3;
-    background: linear-gradient(270deg, #c32aa3, #ffdc7c, #f46f30);
+    background: linear-gradient(270deg, #c32aa3 25% , #ffdc7c, #f46f30);
     padding: 5px 16px;
+    box-shadow: 5px 10px 18px grey;
+    margin-bottom: 25px;
   }
   
   .nav-bar {
@@ -80,7 +58,7 @@
  
   }
   .Login {
-    float: right;
+
     display: block;
     color: white;
     text-align: center;
@@ -89,19 +67,51 @@
     font-family: 'Love Ya Like A Sister';
     font-size: 25px;
   }
+/*Hero-Image*/
 
-  .profile-logo {
-    z-index: 1;
-    display: block;
-    opacity: 100%;
-    width: 30%;
-    padding-top: 10%;
-    position: absolute;
-    border-radius: 100%;
+.hero-image {
+    width: 100%;
   }
 
-  .home-image {
+.hero-image-container {
     width: 100%;
     opacity: 100%; 
     position: relative;
+    display: inline-block;
+}
+
+
+.hero-page-headline {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 35%;
+    bottom: 30%;
+    text-align: left;
+    font-size: xx-large;
+    padding-bottom: 30%;
+    width: 100%;
+}
+
+
+.opacity-hero-image {
+    z-index: 1;
+    background: rgba(0, 14, 2, 0.6)
+}
+
+
+.hero-title {
+    margin: 10%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*footer*/
+
+
+  .contact {
+      background-color: #c32aa3;
   }

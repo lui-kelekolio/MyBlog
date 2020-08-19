@@ -36,6 +36,19 @@
   }
   
   .nav-link:hover {
+    color: #f46f30;
+    background-color: white;
+    transition: ease-in 0.1s;
+  }
+
+  .nav-link2 {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  
+  .nav-link2:hover {
     color: #c32aa3;
     background-color: white;
     transition: ease-in 0.1s;
@@ -43,10 +56,10 @@
   
   
   .logo {
-    height: 140px;
-    width: 140px;
-   
+    height: 200px;
+    width: 200px;
     border-radius: 100%;
+    
   }
 
   .nav {
@@ -64,7 +77,7 @@
   }
 
   .box2 {
-    align-items: center;
+ 
   }
   .Login {
     float: right;
@@ -75,4 +88,20 @@
     text-decoration: none;
     font-family: 'Love Ya Like A Sister';
     font-size: 25px;
+  }
+
+  .profile-logo {
+    z-index: 1;
+    display: block;
+    opacity: 100%;
+    width: 30%;
+    padding-top: 10%;
+    position: absolute;
+    border-radius: 100%;
+  }
+
+  .home-image {
+    width: 100%;
+    opacity: 100%; 
+    position: relative;
   }

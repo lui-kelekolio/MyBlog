@@ -18,10 +18,13 @@ class Home extends React.Component {
                                                                         
                         <div className="hero-image-container">
                             
-                                <img className="hero-image" src="/images/sidekix-media-g51F6-WYzyU-unsplash.jpg" />
-                                <div className="hero-page-headline"><h1 className="hero-title">Welcome to Oasis Savon</h1></div>
-                    
-                            </div>
+                            <img className="hero-image" src="/images/sidekix-media-g51F6-WYzyU-unsplash.jpg" />
+                                <div className="hero-page-headline">
+                                    <h1 className="hero-title">Welcome to Oasis Savon</h1>
+                                    <h3 className="hero-title2">testing testing 1 2 3</h3>
+                                </div>
+                                
+                        </div>
 
                      
 

@@ -24,10 +24,10 @@ class Nav extends React.Component {
             </div>
                 
                 
-            <div className="box2"><img className="logo" src="/images/Logo2.png" alt="logo"></img></div>
+            <div className="box2"><img className="logo" src="/images/Logo2.png"></img></div>
          
 
-            <div className="Login">Login/Register</div>
+            <div className="Login"><li className="nav-link2" to='/Login'>Login/Register</li></div>
         </div>
 
         )

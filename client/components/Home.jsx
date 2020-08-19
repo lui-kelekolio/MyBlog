@@ -32,7 +32,8 @@ class Home extends React.Component {
                     <div className="blurb-container">
                         <div className="blurb-headline"></div>
                         <br />
-                        <div className="blurb-text"><p>Hello and welcome to Oasis Savon. Here we sell exotic soaps and bath accessories for your liking.</p>
+                        <div className="blurb-text"><p>This helps explain what we meant in the previous section when we said that racket provides require and the function-calling syntax. Libraries are not restricted to exporting values, such as functions; they can also define new syntactic forms.<br></br><br></br> In this sense, Racket isn’t exactly a language at all; it’s more of an idea for how to structure a language so that you can extend it or create entirely new languages.</p>
+
                         </div>
                     </div>
 

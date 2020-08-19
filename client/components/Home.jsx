@@ -14,20 +14,23 @@ class Home extends React.Component {
         return (
             <>
                 <main>
-                    <div>
-                        <div className="profile-logo"><img src = "/images/Logo2.png"></img></div>
-                        <div className="hero-text"></div>
-                        <img className="home-image" src="/images/sidekix-media-g51F6-WYzyU-unsplash.jpg" />
-                        <div className="home-page-headline">Oasis Savon</div>
-                        <div className="home-page-ptag">Bath products xD</div>
+                
+                                                                        
+                        <div className="hero-image-container">
+                            
+                                <img className="hero-image" src="/images/sidekix-media-g51F6-WYzyU-unsplash.jpg" />
+                                <div className="opacity-hero-image">
+                                <div className="hero-page-headline"><h1 className="hero-title">Welcome to Oasis Savon</h1></div>
+                    
+                            </div>
 
-                    </div>
+                        </div>
 
 
                     <div className="blurb-container">
                         <div className="blurb-headline"></div>
                         <br />
-                        <div className="blurb-text">
+                        <div className="blurb-text"><p>Hello and welcome to Oasis Savon. Here we sell exotic soaps and bath accessories for your liking.</p>
                         </div>
                     </div>
 

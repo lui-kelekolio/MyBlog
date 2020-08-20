@@ -17,7 +17,9 @@ class Nav extends React.Component {
 
         <div className="nav">
   
-            <div className="box2"><img className="logo" src="/images/Logo2 - Copy.png"></img></div>
+            <div className="box2">
+                <Link  to="/"><img className="logo" src="/images/Logo2 - Copy.png"></img></Link>
+            </div>
 
             {/* <div className="Login"><h1>Oasis Savon</h1></div> */}
 

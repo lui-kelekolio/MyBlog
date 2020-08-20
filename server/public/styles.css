@@ -27,26 +27,25 @@ a {
   }
   
   .nav-link {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding:10px;
     border-radius: 8px;  
     border-width: 2px;
-    border-style: solid;
-    border-color: #c32aa3;
+
+    transition: ease-out 0.15s;
   }
   
   .nav-link:hover {
-    color: #c32aa3;
+    color: #8134AF;
     background-color: white;
-    transition: ease-in 0.1s;
-    border-style: solid;
+    transition: ease-in 0.15s;
     border-radius: 8px;  
     border-width: 2px;
-    border-color: white;
     text-decoration: none;
     margin-top: 10%;
     margin-bottom: 10%;
+    box-shadow: 5px 10px 18px rgb(80, 80, 80);
   }
 
 
@@ -56,6 +55,7 @@ a {
     width: 150px;
     margin-left: 90px;
     border-radius: 100%;
+    box-shadow: 5px 10px 18px rgb(80, 80, 80);
   }
 
   .nav {
@@ -64,7 +64,7 @@ a {
     flex-direction: row;
     align-items: center;
     background: whitesmoke;
-    background: linear-gradient(270deg, #c32aa3 27% , #ffdc7c, #f46f30);
+    background: linear-gradient(225deg,#525BD4, #8134AF, #c32aa3 ,#f46f30, #ffdc7c );
     padding: 5px 16px;
     text-decoration: none;
     /* box-shadow: 5px 10px 18px grey;
@@ -182,7 +182,7 @@ a {
 
 
 .who-we-are-container {
-  background-color: #c32aa3;
+  background: linear-gradient(225deg,#525BD4, #8134AF, #c32aa3 ,#f46f30, #ffdc7c );
   padding-left:10%;
   padding-right: 10%;
   padding-bottom: 5% ;
@@ -193,6 +193,9 @@ a {
   top: 40%;
 }
 
+.wwa-blurb-subtext , .wwa-blurb-headline {
+  color: white;
+}
 
 
 

@@ -132,6 +132,12 @@ a {
   flex: 1;
   position: relative;
   text-align: center;
+  transition: ease-out 0.1s;
+}
+
+.image-link1:hover {
+  transform: scale(1.01);
+  transition: ease-in 0.1s;
 }
 
 

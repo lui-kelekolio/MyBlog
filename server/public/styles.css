@@ -4,69 +4,58 @@
     to {color: #f46f30;}
   }
 
-  body {
-    width: 100%;
-  }
   
   /*nav bar */
 
 a {
-  margin-top: 10%;
   margin-bottom: 10%;
 }
 
   .nav li {
     float: right;
-    display: block;
     color: white;
+    display: block;
     text-align: center;
     text-decoration: none;
     font-family: 'Concert One', cursive;
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
+    margin: 15px;
   }
   
   .nav-link {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     padding:10px;
-    border-radius: 8px;  
     border-width: 2px;
-
-    transition: ease-out 0.15s;
   }
   
   .nav-link:hover {
-    color: #8134AF;
-    background-color: white;
-    transition: ease-in 0.15s;
-    border-radius: 8px;  
-    border-width: 2px;
+    color: white;
+    background-color:  rgb(0, 252, 13);
+    border-width: 12px;
     text-decoration: none;
-    margin-top: 10%;
-    margin-bottom: 10%;
     box-shadow: 5px 10px 18px rgb(80, 80, 80);
   }
 
 
   
   .logo {
-    height: 150px;
-    width: 150px;
     margin-left: 90px;
-    border-radius: 100%;
-    box-shadow: 5px 10px 18px rgb(80, 80, 80);
+    color: white;
+    font-family: 'Concert One', cursive;
+    margin: 30px;
   }
 
   .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
-    background: whitesmoke;
-    background: linear-gradient(225deg,#525BD4, #8134AF, #c32aa3 ,#f46f30, #ffdc7c );
-    padding: 5px 16px;
+    background: #000840;
     text-decoration: none;
+    text-align: center;
+    height: 50px;
     /* box-shadow: 5px 10px 18px grey;
     margin-bottom: 10px; */
   }
@@ -80,56 +69,51 @@ a {
     text-decoration: none;
     font-family: 'Love Ya Like A Sister';
     font-size: 25px;
+
   }
 
 
 
-/*Hero-Image*/
+/*Home-Page*/
 
-.hero-image {
-    width: 100%;
-  }
+.title {
+  font-size: 50px;
+  color: #000840;
+  text-align: center;
+  font-family: 'Nerko One', cursive;
+}
 
-.hero-image-container {
-    width: 100%;
-    opacity: 100%; 
-    position: relative;
-    display: inline-block;
+.sub-title {
+  color: #000840;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  margin-bottom: 5%;
+}
+
+.box2 {
+  display: flex;
+}
+
+.image-link1 {
+  flex: 1;
+  position: relative;
+  text-align: center;
 }
 
 
-.hero-page-headline {
-  background: rgba(0, 0, 0, 0.425);
-    position: absolute;
-    z-index: 1;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 25%;
-    bottom: 30%;
-    text-align: left;
-    font-size: xx-large;
-    padding-bottom: 30%;
-    width: 100%;
+.text-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nerko One', cursive;
+  color: white;
+  font-size: xx-large;
 }
-
-
-
-.hero-title {
-    margin-left: 10%;
-    margin-top: 8%;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-}
-
-.hero-title2 {
-    margin-left: 30%;
-    color: #c32aa3;
-    animation-name: color-font-change;
-    animation-duration: 17s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    font-family: 'Oswald', sans-serif;
+.home-image {
+  height: 500px;
+  width: 400px;
+  margin: 5px;
 }
 
 

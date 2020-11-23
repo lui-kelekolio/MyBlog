@@ -30,16 +30,16 @@ class Home extends React.Component {
 
                     <div className="box2">
                             <div className="image-link1">
-                                <img className="home-image" src="/images/nice-view2.jpg" />
-                                <p className="text-link">A bit about me</p>
+                                <Link to='/About'><img className="home-image" src="/images/nice-view2.jpg" /></Link>
+                                <Link to='/About'><p className="text-link">A bit about me</p></Link>
                             </div>
                             <div className="image-link1">
-                                <img className="home-image" src="/images/nice-view1.jpg" />
-                                <p className="text-link">What am I doing with my life?</p>
+                                <Link to ='/Life'><img className="home-image" src="/images/nice-view1.jpg" /></Link>
+                                <Link to ='/Life'><p className="text-link">What am I doing with my life?</p></Link>
                             </div>
                             <div className="image-link1">
-                                <img className="home-image" src="/images/Big-Eyes-Post-782x1024.jpg" />
-                                <p className="text-link">Family</p>
+                                <Link to ='/Family'><img className="home-image" src="/images/Big-Eyes-Post-782x1024.jpg" /></Link>
+                                <Link to ='/Family'><p className="text-link">Family</p></Link>
                             </div>
                         
                     </div>

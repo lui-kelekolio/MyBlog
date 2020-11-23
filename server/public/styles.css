@@ -1,0 +1,195 @@
+@keyframes color-font-change{
+    from {color: #c32aa3;}
+    to {color:#ffdc7c;}
+    to {color: #f46f30;}
+  }
+
+  
+  /*nav bar */
+
+a {
+  margin-bottom: 10%;
+}
+
+  .nav li {
+    float: right;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-size: 15px;
+    padding: 10px;
+    margin: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    border-width: 2px;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    background-color:  rgb(0, 252, 13);
+    border-width: 12px;
+    text-decoration: none;
+    box-shadow: 5px 10px 18px rgb(80, 80, 80);
+  }
+
+
+  
+  .logo {
+    margin-left: 90px;
+    color: white;
+    font-family: 'Concert One', cursive;
+    margin: 30px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: #000840;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    /* box-shadow: 5px 10px 18px grey;
+    margin-bottom: 10px; */
+  }
+  
+  .Login {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Love Ya Like A Sister';
+    font-size: 25px;
+
+  }
+
+
+
+/*Home-Page*/
+
+.title {
+  font-size: 50px;
+  color: #000840;
+  text-align: center;
+  font-family: 'Nerko One', cursive;
+}
+
+.sub-title {
+  color: #000840;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  margin-bottom: 5%;
+}
+
+.box2 {
+  display: flex;
+}
+
+.image-link1 {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+
+
+.text-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nerko One', cursive;
+  color: white;
+  font-size: xx-large;
+}
+.home-image {
+  height: 500px;
+  width: 400px;
+  margin: 5px;
+}
+
+
+/*blurb container */
+
+.blurb-container {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.blurb-text {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5%;
+}
+
+
+
+/* about page */
+
+
+.about-content-container {
+  font-size: xx-large;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-left:10%;
+  padding-right: 10%;
+  padding-bottom: 5% ;
+  padding-top: 5%;
+}
+
+.about-hero-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.about-image-logo {
+  position: absolute;
+  right: 40%;
+  left: 40%;
+  top: 30%;
+  border-radius: 100%;
+  box-shadow: 5px 10px 18px rgb(80, 80, 80);
+  margin-bottom: 10px;
+}
+
+
+
+.who-we-are-container {
+  background: linear-gradient(225deg,#525BD4, #8134AF, #c32aa3 ,#f46f30, #ffdc7c );
+  padding-left:10%;
+  padding-right: 10%;
+  padding-bottom: 5% ;
+  padding-top: 5%;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Oswald', sans-serif;
+  top: 40%;
+}
+
+.wwa-blurb-subtext , .wwa-blurb-headline {
+  color: white;
+}
+
+
+
+/*footer*/
+
+  .footer-container {
+      background-color: #666666;
+      width: 100%;
+      height: 100%;
+      right: auto;
+      left: auto;
+      text-align: center;
+  }

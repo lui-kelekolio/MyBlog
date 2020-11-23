@@ -28,14 +28,17 @@ a {
     text-decoration: none;
     padding:10px;
     border-width: 2px;
+    transition: ease-out 0.1s;
+    border-radius: 1px;
   }
   
   .nav-link:hover {
-    color: white;
-    background-color:  rgb(0, 252, 13);
+    color: #000840;
+    background-color:   rgb(255, 250, 241);
     border-width: 12px;
     text-decoration: none;
     box-shadow: 5px 10px 18px rgb(80, 80, 80);
+    transition: ease-in 0.1s;
   }
 
 
@@ -90,6 +93,37 @@ a {
   margin-bottom: 5%;
 }
 
+.content {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  border-color: #000840;
+  border-style: solid;
+  border-radius: 1px;
+  padding: 10px;
+  background-color: rgb(255, 250, 241);
+}
+
+.intro-para {
+  width: 70%;
+  text-align: center;
+  margin-top: 5%;
+  font-size:large;
+  font-family: 'Courgette', cursive;
+  color: #000840;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-left: 10%;
+  border-color: #000840;
+  border-style: solid;
+}
+
 .box2 {
   display: flex;
 }
@@ -109,11 +143,11 @@ a {
   font-family: 'Nerko One', cursive;
   color: white;
   font-size: xx-large;
+
 }
 .home-image {
-  height: 500px;
-  width: 400px;
-  margin: 5px;
+  height: 95%;
+  width: 95%;
 }
 
 

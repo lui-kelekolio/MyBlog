@@ -17,19 +17,18 @@ class Nav extends React.Component {
 
         <div className="nav">
   
-            <div className="box2">
-                <Link  to="/"><img className="logo" src="/images/Logo2 - Copy.png"></img></Link>
-            </div>
+            {/* <div className="box2">
+                <h1 className="logo">Lui Kelekolio</h1>
+            </div> */}
 
             {/* <div className="Login"><h1>Oasis Savon</h1></div> */}
 
 
             <div className="Nav-bar">
-                <li><Link className="nav-link" to="/login">Login/Register</Link></li> 
-                <li><Link className="nav-link" to="/">Home</Link></li>
+                <li><Link className="nav-link" to="/login">Say Hi!</Link></li> 
+                <li><Link className="nav-link" to="/">More</Link></li>
                 <li><Link className="nav-link" to="/about">About</Link></li>
-                <li><Link className="nav-link" to="/shop">Shop</Link></li> 
-                  
+                <li><Link className="nav-link" to="/shop">Home</Link></li> 
             </div>
 
             

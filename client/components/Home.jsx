@@ -25,7 +25,7 @@ class Home extends React.Component {
                             I am a graduate web designer and a huuuugee fan of video games. What you have stumbled upon is my attempt at a blog that I will keep up to date with 
                             all the latest news going on with my life. Hope you enjoy! </p>
 
-                            <img className="profile-image" src="/images/nice-view2.jpg" />
+                            <img className="profile-image" src="/images/profile2.jpeg" />
                     </div>
 
                     <div className="box2">

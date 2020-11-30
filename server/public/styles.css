@@ -88,6 +88,7 @@ a {
   border-radius: 1px;
   padding: 10px;
   background-color: rgb(255, 250, 241);
+  box-shadow: 5px 10px 18px grey;
 }
 
 .intro-para {
@@ -128,6 +129,13 @@ a {
   width: 520px;
   border-color: white;
   border-style: solid;
+  box-shadow: 5px 10px 18px grey;
+  opacity: 1;
+}
+
+.about-image:hover{
+  opacity: 0.8;
+  transition: ease-in 0.1s;
 }
 
 .about-intro-div{
@@ -144,7 +152,8 @@ a {
   border-color: white;
   padding: 5%;
   font-family: 'Courgette', cursive;
- 
+  background-color: #000b5f;
+  box-shadow: 5px 10px 18px grey;
 }
 
 
@@ -169,6 +178,8 @@ a {
   border-color: white;
   padding: 5%;
   font-family: 'Courgette', cursive;
+  background-color: #000b5f;
+  box-shadow: 5px 10px 18px grey;
 }
 
 .plan-image-div {
@@ -182,9 +193,13 @@ a {
   width: 670px;
   border-color: white;
   border-style: solid;
+  box-shadow: 5px 10px 18px rgb(128, 128, 128);
 }
 
-
+.plan-image:hover{
+  opacity: 0.8;
+  transition: ease-in 0.1s;
+}
 
 
 .hobbies-container{
@@ -207,8 +222,13 @@ a {
   width: 720px;
   border-color: #000840;
   border-style: solid;
+  box-shadow: 5px 10px 18px grey;
 }
 
+.hobbies-image:hover{
+  opacity: 0.8;
+  transition: ease-in 0.1s;
+}
 
 .hobbies-intro-div{
   flex: 1;
@@ -227,6 +247,7 @@ a {
   padding: 5%;
   font-family: 'Courgette', cursive;
   background-color: rgb(255, 250, 241);
+  box-shadow: 5px 10px 18px grey;
 }
 
 .steam-link{

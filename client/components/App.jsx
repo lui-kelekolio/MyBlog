@@ -5,8 +5,8 @@ import Home from './Home'
 import Nav from './Nav'
 import About from './About'
 import Footer from './Footer'
-import Life from './Life'
-import Family from './Family'
+import Hobbies from './Hobbies'
+import Plan from './Plan'
 
 
 const App = () => {
@@ -16,8 +16,8 @@ const App = () => {
         <Route path="/" component={Nav} />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route exact path='/Life' component={Life} />
-        <Route exact path='/Family' component={Family} />
+        <Route exact path='/Hobbies' component={Hobbies} />
+        <Route exact path='/Plan' component={Plan} />
         <Route path="/" component={Footer} />
       </React.Fragment>
     </Router>

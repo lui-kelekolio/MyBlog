@@ -15,24 +15,25 @@ class Nav extends React.Component {
         return (
 
 
-        <div className="nav">
-  
-            {/* <div className="box2">
-                <h1 className="logo">Lui Kelekolio</h1>
-            </div> */}
+            <div className="nav">
 
-            {/* <div className="Login"><h1>Oasis Savon</h1></div> */}
+                <div className="logo">
+                    <h1>Lui's Blog</h1>
+                </div>
 
 
-            <div className="Nav-bar">
-                <li><Link className="nav-link" to="/login">Say Hi!</Link></li> 
-                <li><Link className="nav-link" to="/">More</Link></li>
-                <li><Link className="nav-link" to="/about">About</Link></li>
-                <li><Link className="nav-link" to="/">Home</Link></li> 
+                <div className="Nav-bar">
+
+                    <div>
+                        <li><Link className="nav-link" to="/login">Say Hi!</Link></li>
+                        <li><Link className="nav-link" to="/">More</Link></li>
+                        <li><Link className="nav-link" to="/about">About</Link></li>
+                        <li><Link className="nav-link" to="/">Home</Link></li>
+                    </div>
+                </div>
+
+
             </div>
-
-            
-        </div>
 
         )
 

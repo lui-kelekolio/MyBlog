@@ -109,9 +109,6 @@ a {
   border-style: solid;
 }
 
-.box2 {
-
-}
 
 .about-me-container {
   display: flex;
@@ -244,78 +241,49 @@ a {
 
 
 
-
-
-
-
-
-
-
-/*blurb container */
-
-.blurb-container {
-    text-align: center;
-    font-size: xx-large;
-}
-
-.blurb-text {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 5%;
-}
-
-
-
 /* about page */
 
-
-.about-content-container {
-  font-size: xx-large;
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  padding-left:10%;
-  padding-right: 10%;
-  padding-bottom: 5% ;
-  padding-top: 5%;
+.who-am-i-container {
+  width:100%
 }
 
-.about-hero-image {
+.whoami-hero-image {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
 }
-.about-image-logo {
+.whoami-title {
   position: absolute;
-  right: 40%;
-  left: 40%;
-  top: 30%;
-  border-radius: 100%;
-  box-shadow: 5px 10px 18px rgb(80, 80, 80);
-  margin-bottom: 10px;
-}
-
-
-
-.who-we-are-container {
-  background: linear-gradient(225deg,#525BD4, #8134AF, #c32aa3 ,#f46f30, #ffdc7c );
-  padding-left:10%;
-  padding-right: 10%;
-  padding-bottom: 5% ;
-  padding-top: 5%;
-  text-align: center;
-  font-size: xx-large;
-  font-family: 'Oswald', sans-serif;
-  top: 40%;
-}
-
-.wwa-blurb-subtext , .wwa-blurb-headline {
+  right: 30%;
+  left: 30%;
+  top: 55%;
+  font-size: 7rem;
   color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  background-color: #000740c7;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+.about-me-container2{
+  display: flex;
+  background-color: white;
 }
 
 
+
+/*Hobbies*/
+
+.Hobbies-container1{
+  width:100%;
+}
+
+.Hobbies-hero-image{
+  width: 100%;
+}
 
 /*footer*/
 

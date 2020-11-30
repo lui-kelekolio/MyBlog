@@ -131,6 +131,7 @@ a {
   border-style: solid;
   box-shadow: 5px 10px 18px grey;
   opacity: 1;
+  border-bottom-right-radius: 15%;
 }
 
 .about-image:hover{
@@ -194,6 +195,7 @@ a {
   border-color: white;
   border-style: solid;
   box-shadow: 5px 10px 18px rgb(128, 128, 128);
+  border-bottom-right-radius: 15%;
 }
 
 .plan-image:hover{
@@ -223,6 +225,7 @@ a {
   border-color: #000840;
   border-style: solid;
   box-shadow: 5px 10px 18px grey;
+  border-bottom-left-radius: 15%;
 }
 
 .hobbies-image:hover{
@@ -289,17 +292,52 @@ a {
   font-family: 'Courgette', cursive;
 }
 
-.about-me-container2{
-  display: flex;
+.about-me-container1{
   background-color: white;
   justify-content: center;
+  text-align: center;
+  border-style: solid;
+  border-color: #000740;
+  padding: 5%;
 }
 
 .about-me-title{
   font-family: 'Courgette', cursive;
   font-size: 6rem;
   color: #000740;
-  
+}
+
+.about-me-content {
+
+  color: #000740;
+  font-size: 2rem;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.about-me-container2{
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+  color: white;
+  background-color: #000740;
+}
+li {
+  color: white;
+}
+
+.about-me-title2{
+  font-family: 'Courgette', cursive;
+  font-size: 6rem;
+  color: white;
+}
+.about-me-content2 {
+
+  color: #000740;
+  font-size: 2rem;
+  margin-left: 6%;
+  margin-right: 6%;
+  text-align: left;
 }
 
 /*Hobbies page*/

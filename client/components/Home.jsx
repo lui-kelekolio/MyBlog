@@ -54,7 +54,7 @@ class Home extends React.Component {
                                 <Link to='/Plan'><img className="plan-image" src="/images/kahu1.jpg" /></Link>
                             </div>
                             <div className="plan-intro-div">
-                                <p className="plan-para">Hi! My name is Lui Kelekolio. I'm 22 years old and was both born and raised in  Wellington New Zealand. I am an aspiring front end developer with a diploma in level 6 UI/UX Web design. I've studied at places such as Yoobee's School of design and En Spiral Dev Academy so I have experience when it comes to maintaining a functionally, aesthetically pleasing website.</p>
+                                <p className="plan-para">My goal is to become an efficient front end developer. I still have a lot to do to achieve this goal but I have never been more motivated to give this my all. I plan on further improving my knowledge and technical skills to help me achieve this goal.</p>
                             </div>
 
                         </div>

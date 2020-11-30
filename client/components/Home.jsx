@@ -28,7 +28,7 @@ class Home extends React.Component {
                         <img className="profile-image" src="/images/profile2.jpeg" />
                     </div>
 
-                    <div className="box2">
+                    <div>
 
                         <div className="about-me-container">
                             <div className="about-image-div">

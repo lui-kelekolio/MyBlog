@@ -13,14 +13,28 @@ function About() {
             </div>
 
             <div className="about-me-container2">
-                <h1 className="about-me-title">dsfsfvdsv</h1>
+                <h1 className="about-me-title">Hey! I'm Lui Kelekolio</h1>
+                <p>I'm 22 years old and was both born and raised in  Wellington, New Zealand. I am an aspiring front end developer with a passion for I.T. I've always had an interest in computers since I was young. Being a gamer myself I've found </p>
             </div>
+            <p>My current skills and certificates include the following:</p>
+            <ls>
+                <li>NCEA levels 1,2 and 3 at Newlands College (2013-2015)</li>
+                <li>Work experience/Communications at Capital Training (2016)</li>
+                <li>Level 6 Web UI/UX Design (2018-2020)</li>
+                <li>Basic CPR Training at New World Thorndon (2017)</li>
+                <li>Fire Warden training at New World Churton Park (2020)</li>
+                <li>Duty Manager training at New World Churton Park (2020)</li>
 
+            </ls>
 
-            <div className="who-we-are-container">
-                <div className="wwa-blurb-headline"><h1>Who are we?</h1></div>
-                <div className="wwa-blurb-subtext">A result from the circle function is a picture value, which prints as an expression result in much the same way that numbers or strings print. The argument to circle determines the circle’s size in pixels.<br></br> As you might guess, there’s a rectangle function that takes two arguments instead of one:</div>
-            </div>
+            <p>My current work history:</p>
+            <ls>
+                <li>Cleaning Assistant at New World Thorndon (2016-2017)</li>
+                <li>Grocery Assistant at New World Thorndon (2017-2018)</li>
+                <li>Grocery Supervisor at New World Thorndon (2018-2020)</li>
+                <li>Duty Manager at Churton Park New World (Present)</li>
+            </ls>
+
 
 
         </main >

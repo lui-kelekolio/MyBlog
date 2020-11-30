@@ -292,9 +292,15 @@ a {
 .about-me-container2{
   display: flex;
   background-color: white;
+  justify-content: center;
 }
 
-
+.about-me-title{
+  font-family: 'Courgette', cursive;
+  font-size: 6rem;
+  color: #000740;
+  
+}
 
 /*Hobbies page*/
 

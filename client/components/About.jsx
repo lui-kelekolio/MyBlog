@@ -21,6 +21,7 @@ function About() {
                 <h1 className="about-me-title2">Quick facts about myself</h1>
                 <ls className="about-me-content2">
                     <li>Favourite Colour: Blue</li>
+                    <li>Favourite Type of Music: Hip Hop/RnB</li>
                     <li>Favourite Food: Mum's Mac n Cheese</li>
                     <li>Favourite Sport: Rugby</li>
                     <li>Favourite Coding Language: CSS</li>

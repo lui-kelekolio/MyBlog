@@ -15,7 +15,7 @@ class Home extends React.Component {
             <>
                 <main>
                     <div className="box1">
-                        <h1 className="title">WELCOME TO MY BLOG</h1>
+                        <h1 className="title">★ WELCOME TO MY BLOG ★</h1>
                         <p className="sub-title">made by Lui Kelekolio</p>
                     </div>
 
@@ -31,7 +31,7 @@ class Home extends React.Component {
                     <div className="box2">
 
                         <div className="about-me-container">
-                            <div className="home-image-div">
+                            <div className="about-image-div">
                                 <Link to='/About'><img className="about-image" src=" /images/profile1.jpg" /></Link>
                             </div>
                             <div className="about-intro-div">
@@ -42,17 +42,22 @@ class Home extends React.Component {
 
                         <div className="hobbies-container">
                             <div className="hobbies-intro-div">
-                                <p className="hobbies-para">Outside of coding I very much enjoy sports, playing video games and spending time with friends and family. At the moment my favourite game would have to be Rocket League.<br></br> Add me! Would be cool to play some time!<br></br><br></br><a className="steam-link" href="https://steamcommunity.com/profiles/76561198179209627/">Mr.Loooooway</a></p>
+                                <p className="hobbies-para">Outside of coding I very much enjoy sports, listening to music, playing video games and spending time with friends and family. At the moment my favourite game would have to be Rocket League.<br></br> Add me! Would be cool to play some time!<br></br><br></br><a className="steam-link" href="https://steamcommunity.com/profiles/76561198179209627/">Mr.Loooooway</a></p>
                             </div>
                             <div className="hobbies-image-div">
-                                <Link to='/Life'><img className="hobbies-image" src="/images/received_332924380699747.jpeg" /></Link>
+                                <Link to='/Hobbies'><img className="hobbies-image" src="/images/received_474066093286936.jpeg" /></Link>
                             </div>
 
                         </div>
-                        {/* <div className="image-link3">
-                            <Link to='/Family'><img className="home-image" src="/images/Big-Eyes-Post-782x1024.jpg" /></Link>
-                            <Link to='/Family'><p className="text-link">Family</p></Link>
-                        </div> */}
+                        <div className="plan-container">
+                            <div className="plan-image-div">
+                                <Link to='/Plan'><img className="plan-image" src="/images/kahu1.jpg" /></Link>
+                            </div>
+                            <div className="plan-intro-div">
+                                <p className="plan-para">Hi! My name is Lui Kelekolio. I'm 22 years old and was both born and raised in  Wellington New Zealand. I am an aspiring front end developer with a diploma in level 6 UI/UX Web design. I've studied at places such as Yoobee's School of design and En Spiral Dev Academy so I have experience when it comes to maintaining a functionally, aesthetically pleasing website.</p>
+                            </div>
+
+                        </div>
 
                     </div>
 

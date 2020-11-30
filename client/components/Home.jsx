@@ -42,7 +42,7 @@ class Home extends React.Component {
 
                         <div className="hobbies-container">
                             <div className="hobbies-intro-div">
-                                <p className="hobbies-para">Outside of coding I very much enjoy sports, listening to music, playing video games and spending time with friends and family. At the moment my favourite game would have to be Rocket League.<br></br> Add me! Would be cool to play some time!<br></br><br></br><a className="steam-link" href="https://steamcommunity.com/profiles/76561198179209627/">Mr.Loooooway</a></p>
+                                <p className="hobbies-para">Outside of coding I very much enjoy sports, listening to music, playing video games and spending time with friends and family. At the moment my favourite game would have to be Rocket League.<br></br> Add me! Would be cool to play some time!<br></br><br></br><a className="steam-link" href="https://steamcommunity.com/profiles/76561198179209627/">Steam Profile click here!</a></p>
                             </div>
                             <div className="hobbies-image-div">
                                 <Link to='/Hobbies'><img className="hobbies-image" src="/images/received_474066093286936.jpeg" /></Link>

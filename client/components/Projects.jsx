@@ -21,6 +21,23 @@ class Projects extends React.Component {
                 </div>
 
 
+                <div className="Fml-container">
+                    <h1>Follow My Lead (En Spiral Dev Academy Final Group Project)</h1>
+                </div>
+
+                <div className="Spectatingfriends-container">
+                    <h1>Spectating Friends Official Website (Personal Project)</h1>
+                </div>
+
+                <div className="Udemy-container">
+                    <h1>Shopping Website (Udemy Final Project)</h1>
+                </div>
+
+                <div className="Minesweeper-container">
+                    <h1>Minesweeper (En Spiral Dev Academy JS Project)</h1>
+                </div>
+
+
 
             </div>
 

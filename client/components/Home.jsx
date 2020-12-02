@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Projects from './Projects'
 
 
 class Home extends React.Component {
@@ -15,7 +16,7 @@ class Home extends React.Component {
             <>
                 <main>
                     <div className="box1">
-                        <h1 className="title">★ WELCOME TO MY BLOG ★</h1>
+                        <h1 className="title">WELCOME TO MY BLOG </h1>
                         <p className="sub-title">made by Lui Kelekolio</p>
                     </div>
 
@@ -25,7 +26,7 @@ class Home extends React.Component {
                         I am a graduate web designer and a huuuugee fan of video games. What you have stumbled upon is my attempt at a blog that I will keep up to date with
                             all the latest news going on with my life. Hope you enjoy! </p>
 
-                        <img className="profile-image" src="/images/profile2.jpeg" />
+                        <img className="profile-image" src="/images/profile2.jpg" />
                     </div>
 
                     <div>
@@ -60,6 +61,8 @@ class Home extends React.Component {
                         </div>
 
                     </div>
+
+                    <Projects />
 
                 </main>
 

@@ -19,17 +19,19 @@ function About() {
             </div>
             <div className="about-me-container2">
                 <h1 className="about-me-title2">Quick facts about myself</h1>
-                <ls className="about-me-content2">
-                    <li>Favourite Colour: Blue</li>
-                    <li>Favourite Type of Music: Hip Hop/RnB</li>
-                    <li>Favourite Food: Mum's Mac n Cheese</li>
-                    <li>Favourite Sport: Rugby</li>
-                    <li>Favourite Coding Language: CSS</li>
-                    <li>Favourite Video Game: Rocket League/Valorant</li>
-                    <li>Favourite Flavoured Ice-Cream: Cookies n Cream</li>
-                    <li>Favourite Fruit: Strawberries</li>
-                    <li>Favourite Movie: The Truman Show</li>
-                </ls>
+                <div className="about-me-content2">
+                    <ls>
+                        <li>Favourite Colour: Blue</li>
+                        <li>Favourite Type of Music: Hip Hop/RnB</li>
+                        <li>Favourite Food: Mum's Mac n Cheese</li>
+                        <li>Favourite Sport: Rugby</li>
+                        <li>Favourite Coding Language: Javascript</li>
+                        <li>Favourite Video Game: Rocket League</li>
+                        <li>Favourite Flavoured Ice-Cream: Cookies n Cream</li>
+                        <li>Favourite Fruit: Strawberries</li>
+                        <li>Favourite Movie: The Truman Show</li>
+                    </ls>
+                </div>
             </div>
 
             <div className="about-me-certs">

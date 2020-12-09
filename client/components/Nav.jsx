@@ -21,15 +21,11 @@ class Nav extends React.Component {
                     <h1>Lui's Blog</h1>
                 </div>
 
-
-                <div className="Nav-bar">
-
-                    <div>
-                        <li><Link className="nav-link" to="/login">Say Hi!</Link></li>
-                        <li><Link className="nav-link" to="/">More</Link></li>
-                        <li><Link className="nav-link" to="/about">About</Link></li>
-                        <li><Link className="nav-link" to="/">Home</Link></li>
-                    </div>
+                <div className="navbar-container">
+                    <Link className="nav-link" to="/login">Say Hi!</Link>
+                    <Link className="nav-link" to="/">More</Link>
+                    <Link className="nav-link" to="/about">About</Link>
+                    <Link className="nav-link" to="/">Home</Link>
                 </div>
 
 

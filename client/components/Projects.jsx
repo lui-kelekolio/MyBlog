@@ -17,24 +17,50 @@ class Projects extends React.Component {
 
             <div className="Projects-container">
                 <div className="Projects-intro-title">
-                    <h1>HERE ARE A FEW OF MY PROJECTS:</h1>
+                    <p className="projects-title">HERE ARE A FEW OF MY PROJECTS:</p>
                 </div>
 
 
-                <div className="Fml-container">
-                    <h1>Follow My Lead (En Spiral Dev Academy Final Group Project)</h1>
-                </div>
+                <div className="Projects-links-container">
 
-                <div className="Spectatingfriends-container">
-                    <h1>Spectating Friends Official Website (Personal Project)</h1>
-                </div>
+                    <div className="projects-line1">
+                        <div className="Fml-container">
+                            <p className="projects-subtitle">Follow My Lead (En Spiral Dev Academy Final Group Project)</p>
+                            <div className="fml-image-div">
+                                <Link to='/Hobbies'><img className="fml-image" src="/images/ice-dog.jpg" /></Link>
+                            </div>
+                        </div>
 
-                <div className="Udemy-container">
-                    <h1>Shopping Website (Udemy Final Project)</h1>
-                </div>
+                        <div className="Fml-container">
+                            <div className="Fml-container">
+                                <p className="projects-subtitle">Gaming Website (Personal Project)</p>
+                                <div className="fml-image-div">
+                                    <Link to='/Hobbies'><img className="fml-image" src="/images/gaming.jpg" /></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <div className="Minesweeper-container">
-                    <h1>Minesweeper (En Spiral Dev Academy JS Project)</h1>
+                    <div className="projects-line1">
+                        <div className="Fml-container">
+                            <div className="Fml-container">
+                                <p className="projects-subtitle">Shopping Website (Udemy Final Project)</p>
+                                <div className="fml-image-div">
+                                    <Link to='/Hobbies'><img className="fml-image" src="/images/ice-dog.jpg" /></Link>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="Fml-container">
+                            <div className="Fml-container">
+                                <p className="projects-subtitle">Minesweeper (En Spiral Dev Academy JS Project)</p>
+                                <div className="fml-image-div">
+                                    <Link to='/Hobbies'><img className="fml-image" src="/images/ice-dog.jpg" /></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
 

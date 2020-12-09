@@ -421,9 +421,7 @@ a {
 
 
 .Fml-container{
-  display: 1;
-  /* position: relative;
-  bottom: 200px; */
+  
 }
 
 .projects-subtitle {
@@ -431,13 +429,14 @@ a {
   font-size: 1.2rem;
 }
 .fml-image-div{
-
+ 
 }
 
 .fml-image{
   max-height: 320px;
   max-width:500px;
   transition: ease-out 0.1s;
+
 }
 
 .fml-image:hover{

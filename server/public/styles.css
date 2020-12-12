@@ -97,7 +97,6 @@ a {
   border-radius: 1px;
   padding: 10px;
   /* box-shadow: 5px 10px 18px grey; */
-  max-width: 2500px;
 }
 
 .intro-para {
@@ -137,11 +136,11 @@ a {
   margin-left: 2%;
   height: 350px;
   width: 670px;
-  /* border-color: white;
-  border-style: solid; */
-  box-shadow: 5px 10px 18px  #05172b;
+  border-color: white;
+  border-style: solid;
+  /* box-shadow: 5px 10px 18px  #05172b; */
   opacity: 1;
-  /* border-bottom-right-radius: 15%; */
+  border-radius: 5px;
 }
 
 .about-image:hover{
@@ -187,10 +186,9 @@ a {
   margin-left: 2%;
   height: 400px;
   width: 670px;
-  /* border-color: #000840;
-  border-style: solid; */
-  box-shadow: 5px 10px 18px #061d35;
-  /* border-bottom-right-radius: 15%; */
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
   justify-content: right;
 }
 
@@ -262,16 +260,33 @@ a {
   margin-left: 2%;
   height: 400px;
   width: 670px;
-  /* border-color: white;
-  border-style: solid; */
-  box-shadow: 5px 10px 18px #0b2235;
-  /* border-bottom-right-radius: 15%; */
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
 }
 
 .plan-image:hover{
   opacity: 0.8;
   transition: ease-in 0.1s;
 }
+
+.projects-main-container {
+  display: flex;
+  background-color: #2799A3;
+  align-items: center;
+  height: 350px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 45% 45% / 30%;
+  
+}
+
+
+
+
+
 
 
 
@@ -392,17 +407,20 @@ a {
 /* Projects content */
 
 .Projects-container{
+  
 }
 
-.Projects-intro-title {
+.Projects-title-container {
   height: 50vh; 
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 20vh, 0 100%);
+}
+
+.projects-title{
   font-size: 3rem;
   color: white;
   text-align: center;
   font-family: 'Nerko One', cursive;
-  background-color: #0099ff;
+  padding-top: 5%;
 }
 
 .Projects-links-container{

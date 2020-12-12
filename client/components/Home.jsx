@@ -60,10 +60,15 @@ class Home extends React.Component {
                             </div>
 
                         </div>
-
+                        <div className="projects-main-container">
+                            <div className="Projects-title-container">
+                                <h1 className="projects-title">HERE ARE A FEW OF MY PROJECTS:</h1>
+                            </div>
+                        </div>
+                        <Projects />
                     </div>
 
-                    <Projects />
+
 
                 </main>
 

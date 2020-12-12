@@ -20,9 +20,7 @@ class Projects extends React.Component {
 
 
                 <div className="Projects-links-container">
-                    <div className="Projects-intro-title">
-                        <p className="projects-title">HERE ARE A FEW OF MY PROJECTS:</p>
-                    </div>
+
                     <div className="projects-line1">
                         <div className="Fml-container">
                             <p className="projects-subtitle">Follow My Lead (En Spiral Dev Academy Final Group Project)</p>
@@ -33,7 +31,7 @@ class Projects extends React.Component {
 
 
                         <div className="Fml-container">
-                            <p className="projects-subtitle">Gaming Website (Personal Project)</p>
+                            <p className="projects-subtitle">Gaming App (Personal Project)</p>
                             <div className="fml-image-div">
                                 <Link to='/Hobbies'><img className="fml-image" src="/images/gaming.jpg" /></Link>
                             </div>

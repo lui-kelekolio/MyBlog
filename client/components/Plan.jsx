@@ -7,7 +7,7 @@ function Plan() {
     return (
 
         <main>
-            <div className="plan-container">
+            <div className="plan-page-container">
                 <img className="plan-hero-image" src="/images/kahu1.jpg" />
 
 

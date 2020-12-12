@@ -31,17 +31,11 @@ class Home extends React.Component {
 
                     <div className="main-container">
 
-                        <div className="about-me-container">
-                            <div className="about-image-div">
-                                <Link to='/About'><img className="about-image" src=" /images/profile1.jpg" /></Link>
-                            </div>
-                            <div>
-                                <p className="about-me-para">Hi! My name is Lui Kelekolio. I'm 22 years old and was both born and raised in  Wellington New Zealand. I am an aspiring front end developer with a diploma in level 6 UI/UX Web design. I've studied at places such as Yoobee's School of design and En Spiral Dev Academy so I have experience when it comes to maintaining a functionally, aesthetically pleasing website.</p>
-                            </div>
-                        </div>
-
 
                         <div className="hobbies-container">
+                            <div className="about-title">
+                                <h1>Hobbies and Interests</h1>
+                            </div>
                             <div className="hobbies-image-div">
                                 <Link to='/Hobbies'><img className="hobbies-image" src="/images/received_474066093286936.jpeg" /></Link>
                             </div>
@@ -51,7 +45,23 @@ class Home extends React.Component {
 
 
                         </div>
+
+                        <div className="about-me-container">
+                            <div className="about-title">
+                                <h1>About Me</h1>
+                            </div>
+                            <div className="about-image-div">
+                                <Link to='/About'><img className="about-image" src=" /images/profile1.jpg" /></Link>
+                            </div>
+                            <div>
+                                <p className="about-me-para">Hi! My name is Lui Kelekolio. I'm 22 years old and was both born and raised in  Wellington New Zealand. I am an aspiring front end developer with a diploma in level 6 UI/UX Web design. I've studied at places such as Yoobee's School of design and En Spiral Dev Academy so I have experience when it comes to maintaining a functionally, aesthetically pleasing website.</p>
+                            </div>
+                        </div>
+
                         <div className="plan-container">
+                            <div className="about-title">
+                                <h1>Future Plans</h1>
+                            </div>
                             <div className="plan-image-div">
                                 <Link to='/Plan'><img className="plan-image" src="/images/kahu1.jpg" /></Link>
                             </div>

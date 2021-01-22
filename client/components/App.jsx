@@ -8,6 +8,7 @@ import Footer from './Footer'
 import Hobbies from './Hobbies'
 import Plan from './Plan'
 import Projects from './Projects'
+import Photos from './Photos'
 
 
 const App = () => {
@@ -18,9 +19,10 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path='/Hobbies' component={Hobbies} />
+        <Route exact path='/Photos' component={Photos} />
         <Route exact path='/Plan' component={Plan} />
         <Route exact path='/Projects' component={Projects} />
-        <Route path="/" component={Footer} />
+        {/* <Route path="/" component={Footer} /> */}
       </React.Fragment>
     </Router>
   )

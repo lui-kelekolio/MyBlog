@@ -25,6 +25,7 @@ class Nav extends React.Component {
                     <Link className="nav-link" to="/login">Say Hi!</Link>
                     <Link className="nav-link" to="/">More</Link>
                     <Link className="nav-link" to="/about">About</Link>
+                    <Link className="nav-link" to="/photos">Photo Gallery</Link>
                     <Link className="nav-link" to="/">Home</Link>
                 </div>
 

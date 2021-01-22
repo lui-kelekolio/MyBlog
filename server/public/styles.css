@@ -12,7 +12,7 @@ body {
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  background: #113b96;
+  background-image:linear-gradient(to right, #113b96,rgb(0, 174, 255));
   text-decoration: none;
   height: 100px;
   text-align: center;
@@ -358,7 +358,7 @@ body {
 }
 
 .whoami-hero-image {
-  background-image: linear-gradient(50deg,#001cbda2 4%,rgba(0, 76, 241, 0.534) 39%,rgba(255, 255, 255, 0.103)), url(images/photography4.jpg);
+  background-image: linear-gradient(50deg,#001cbd7e 4%,rgba(0, 76, 241, 0.226) 39%,rgba(255, 255, 255, 0.103)), url(images/photography4.jpg);
   top: 0;
   width: 100%;
   background-position: 0 0,50% 30%;
@@ -547,7 +547,6 @@ body {
   font-size: 2rem;
   align-items: left;
   padding-top: 20px;
-  z-index: 1;
   left: 10%;
 }
 

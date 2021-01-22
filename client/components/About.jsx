@@ -8,8 +8,8 @@ function About() {
 
         <main>
             <div className="who-am-i-container">
-                <img className="whoami-hero-image" src="/images/profile1.jpg" />
-                <h1 className="whoami-title">Who am I?</h1>
+                <img className="whoami-hero-image" />
+                <h1 className="whoami-title">About me</h1>
             </div>
 
             <div className="about-me-container1">

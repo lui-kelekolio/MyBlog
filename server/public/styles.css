@@ -109,7 +109,7 @@ body {
   top: 0;
   width: 100%;
   background-position: 0 0,50% 30%;
-  position: sticky;
+  position: relative;
   background-size: auto,cover;
   background-repeat: repeat,no-repeat;
   background-attachment: scroll,scroll;
@@ -494,7 +494,10 @@ body {
   width: 100%;
 }
 
-
+.project-info-container {
+  display: flex;
+  align-items: center;
+}
 
 .project-photo {
   height: 100%;
@@ -520,7 +523,15 @@ body {
   left: 10%;
 }
 
-
+.project-para {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  left:50%;
+  right: 50%;
+  text-align: center;
+  margin: 5%;
+}
 
 
 .album-photo {

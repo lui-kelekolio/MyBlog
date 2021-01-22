@@ -26,7 +26,7 @@ class Home extends React.Component {
 
                         <div className="content">
                             <div className="div-block">.</div>
-                            <p className="intro-para">Hey you, yeah you. What are you doing here? I wasn't expecting anyone. Well, since you're here, my name is Lui. Nice to meet you!
+                            <p className="intro-para">Hey how are you? My name is Lui. Nice to meet you!
                             I am a graduate web designer with a strong desire to become an outstanding front end developer. This website is solely focused around showing you (the viewer) who I am and what it is that I do. I will keep this blog up to date with
                             all the latest news going on with my life. Hope you enjoy! </p>
 
@@ -39,7 +39,7 @@ class Home extends React.Component {
 
                             <div className="hobbies-container">
                                 <div className="about-title">
-                                    <h1>Hobbies and Interests</h1>
+                                    <h1>Hobbies/Interests</h1>
                                 </div>
                                 <div className="hobbies-image-div">
                                     {/* <Link to='/Hobbies'><img className="hobbies-image" src="/images/received_474066093286936.jpeg" /></Link> */}
@@ -79,7 +79,7 @@ class Home extends React.Component {
                         </div>
                         <div className="projects-main-container">
                             <div className="Projects-title-container">
-                                <h1 className="projects-title">HERE ARE A FEW OF MY PROJECTS:</h1>
+                                <h1 className="projects-title">Here are a few of my projects:</h1>
                             </div>
                         </div>
                         <Projects />

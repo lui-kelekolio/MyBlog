@@ -1,5 +1,5 @@
 html{
-  display: block;
+
 }
 
 body {
@@ -21,6 +21,7 @@ body {
   top: 0;
   z-index: 1;
   /* border-radius: 0 0 85% 85% / 30%; */
+
 }
 
 .logo {
@@ -47,7 +48,6 @@ body {
     margin-bottom: 50px;
     font-family: 'Heebo', sans-serif;
     font-size: 1.2rem;
-    margin-left: 13px;
     margin-right: 13px;
     padding: 10px;
     /* border-radius: 25px; */
@@ -131,7 +131,7 @@ body {
   position: relative;
   height: 75%;
   align-items: center;
-  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .div-block-projects {
@@ -175,8 +175,7 @@ body {
   height: 250px;
   max-height: 250px;
   min-height: 250px ;
-  min-width: 400px;
-  max-width: auto;
+
 }
 
 .intro-para {
@@ -197,12 +196,13 @@ body {
 .profile-image {
   flex: 1;
   max-height:250px;
-  max-width: 250px;
+  /* max-width: 250px; */
   border-radius: 50%;
   border-color: #0117c0;
   border-style: solid;
-  margin-left: 120px;
   margin-right: 50px;
+  margin-left: 50px;
+  /* margin-right: 50px; */
 }
 
 
@@ -213,6 +213,7 @@ body {
   font-family: 'Courgette', cursive;
   text-align: center;
   background-color: #f0fbff;
+  
 }
 
 
@@ -226,6 +227,7 @@ body {
   background-color: white;
   box-shadow: 5px 10px 18px  #616d88;
   transition: ease-out 0.2s;
+  border-radius: 5px;
 }
 
 .about-title {
@@ -266,6 +268,7 @@ body {
   box-shadow: 5px 10px 18px  #616d88;
   height: 600px;
   transition: ease-out 0.2s;
+  border-radius: 5px;
 }
 
 .hobbies-image{
@@ -302,6 +305,7 @@ body {
   box-shadow: 5px 10px 18px  #616d88;
   height: 600px;
   transition: ease-out 0.2s;
+  border-radius: 5px;
 }
 
 
@@ -466,10 +470,10 @@ body {
 }
 
 .projects-title{
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #113b96;
   text-align: center;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 900;
   padding-top: 5%;
   position: relative;
@@ -509,6 +513,7 @@ body {
   position: relative;
   margin-left: 10%;
   border-radius: 10px;
+  box-shadow: 5px 10px 18px  #616d88;
 }
 
 
@@ -517,9 +522,11 @@ body {
   font-weight: 900;
   color: #113b96;
   position: relative;
+  width: 50%;
   font-size: 2rem;
   align-items: left;
   padding-top: 20px;
+  z-index: 1;
   left: 10%;
 }
 

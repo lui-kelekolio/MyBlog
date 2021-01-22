@@ -26,7 +26,7 @@ class Home extends React.Component {
 
                         <div className="content">
                             <div className="div-block">.</div>
-                            <p className="intro-para">Hey how are you? My name is Lui. Nice to meet you!
+                            <p className="intro-para">Hey! My name is Lui. Nice to meet you!
                             I am a graduate web designer with a strong desire to become an outstanding front end developer. This website is solely focused around showing you (the viewer) who I am and what it is that I do. I will keep this blog up to date with
                             all the latest news going on with my life. Hope you enjoy! </p>
 
@@ -59,7 +59,7 @@ class Home extends React.Component {
                                     {/* <Link to='/About'><img className="about-image" src=" /images/profile1.jpg" /></Link> */}
                                 </div>
                                 <div>
-                                    <p className="about-me-para">Hi! My name is Lui Kelekolio. I'm 22 years old and was both born and raised in  Wellington New Zealand. I am an aspiring front end developer with a diploma in level 6 UI/UX Web design. I've studied at places such as Yoobee's School of design and En Spiral Dev Academy so I have experience when it comes to maintaining a functionally, aesthetically pleasing website.</p>
+                                    <p className="about-me-para">My name is Lui Kelekolio. I'm 22 years old and was both born and raised in  Wellington New Zealand. I am an aspiring front end developer with a diploma in level 6 UI/UX Web design. I've studied at places such as Yoobee's School of design and En Spiral Dev Academy so I have experience when it comes to maintaining a functionally, aesthetically pleasing website.</p>
                                 </div>
                             </div>
 

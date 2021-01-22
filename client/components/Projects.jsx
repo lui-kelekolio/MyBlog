@@ -59,19 +59,10 @@ class Projects extends React.Component {
 
                         </div>
                     </div>
+
                     <div className="div-block-projects-seperate1">.</div>
 
-                    <div className="project-container">
-                        <div className="div-block-projects">.</div>
-                        <p className="projects-subtitle">Minesweeper (En Spiral Dev Academy JS Project)</p>
-                        <div className="project-info-container">
-                            <img className="project-photo" src="/images/minesweep.jpg" />
-                            <p className="project-para">This is a simple app that I made during my first week of EDA. A small simple game of minesweeper!</p>
-                            <div className="div-block-projects">.</div>
 
-                        </div>
-                    </div>
-                    <div className="div-block-projects-seperate2">.</div>
                 </div >
 
             </div >

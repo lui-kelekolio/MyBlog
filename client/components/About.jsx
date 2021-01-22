@@ -20,12 +20,18 @@ function About() {
             <div className="about-me-container2">
 
                 <div className="about-me-content2">
-                    <p className="about-me-content">If I'm not coding or hanging out with friends and family I'm usually out and about taking photos. Recently I've taken quite a liking to photography. Something about capturing a single moment in time seems to   </p>
+                    <p className="about-me-content">If I'm not coding or hanging out with friends and family I'm usually out and about taking photos. Recently I've taken quite a liking to photography, there seems to be something about capturing a single moment in time that has me hooked.  </p>
                 </div>
                 <img className="about-me-profile" src="/images/boys2.jpeg" />
             </div>
+            <div className="about-me-container1">
+                <img className="about-me-profile" src="/images/boys.jpg" />
+                {/* <h1 className="about-me-title">Hey! I'm Lui Kelekolio</h1> */}
+                <p className="about-me-content">My dream is to become an outstanding front end developer, with this in mind I've dedicated most of my time to improving my technical skills. I've still got a long way to go before I can say that I've achieved this dream but I'm looking to the journey ahead. </p>
+            </div>
 
 
+            {/* <div className="" */}
 
         </main >
 

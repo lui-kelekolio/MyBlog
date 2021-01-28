@@ -19,7 +19,7 @@ class Home extends React.Component {
                     <div className="Hero-content">
                         <img className="Nav-hero-image" />
                         <h1 className="title">Welcome To My Blog </h1>
-                        <p className="sub-title">made by Lui Kelekolio</p>
+
 
 
 
@@ -30,7 +30,7 @@ class Home extends React.Component {
                             I am a graduate web designer with a strong desire to become an outstanding front end developer. This website is solely focused around showing you (the viewer) who I am and what it is that I do. I will keep this blog up to date with
                             all the latest news going on with my life. Hope you enjoy! </p>
 
-                            <img className="profile-image" src="/images/profile2.jpg" />
+                            <img className="profile-image" src="/images/profile1.jpg" />
                             <div className="div-block2">.</div>
                         </div>
 

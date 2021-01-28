@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Projects from './Projects'
-
+import Projects from './HomePageProjects'
 
 class Home extends React.Component {
     constructor() {
@@ -83,7 +82,6 @@ class Home extends React.Component {
                             </div>
                         </div>
                         <Projects />
-
                     </div>
                 </main>
 

@@ -22,9 +22,9 @@ class Nav extends React.Component {
                 </div>
 
                 <div className="navbar-container">
-                    <Link className="nav-link" to="/login">Say Hi!</Link>
-                    <Link className="nav-link" to="/">More</Link>
+                    <Link className="nav-link" to="/contact">Contact</Link>
                     <Link className="nav-link" to="/about">About</Link>
+                    <Link className="nav-link" to="/projects">Projects</Link>
                     <Link className="nav-link" to="/photos">Photo Gallery</Link>
                     <Link className="nav-link" to="/">Home</Link>
                 </div>

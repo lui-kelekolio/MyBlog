@@ -60,7 +60,7 @@ class Projects extends React.Component {
                         </div>
                     </div>
 
-                    <div className="div-block-projects-seperate1">.</div>
+                    <div className="div-block-projects-seperate1"></div>
 
 
                 </div >

@@ -14,62 +14,48 @@ class Projects extends React.Component {
     render() {
         return (
 
+            <div>
+                <div className="who-am-i-container">
+                    <img className="projects-hero-image" />
+                    <h1 className="whoami-title">My Projects</h1>
+                </div>
 
-            <div className="Projects-container">
 
-
-
-                <div className="Projects-links-container">
-
-                    <div className="projects-flex-1">
-                        <div className="project-container">
-                            <div className="div-block-projects">.</div>
-                            <p className="projects-subtitle">Follow My Lead (EDA Final Group Project)</p>
-                            <div className="project-info-container">
-                                <img className="project-photo" src="/images/ice-dog.jpg" />
-                                <p className="project-para">This is a website that me and five other developers made during our final week of EDA. We call it Follow My Lead. This web app gives you the opportunity to connect will fellow dog lovers in your area to meet and arrange dog walks with them.</p>
-                                <div className="div-block-projects">.</div>
-
+                <div className="History-container">
+                    <div className="History-flex-container">
+                        <div className="History-work-container">
+                            <h1 className="History-title">Work History</h1>
+                            <p className="History-subtitle">Since leaving college I've worked for a few different places, these include:</p>
+                            <div className="History-list">
+                                <ls>
+                                    <li>Cleaning Assistant at New World Thorndon (September 2016 - January 2017)</li>
+                                    <li>Grocery Assistant at New World Thorndon (January 2017 - January 2018)</li>
+                                    <li>Grocery Supervisor at New World Thorndon (January 2018 - December 2019, March 2020 - July 2020)</li>
+                                    <li>Trainee Duty Manager at New World Churton Park (September 2020 - October 2020)</li>
+                                    <li>Duty Manager at New World Churton Park (October 2020 - Present)</li>
+                                </ls>
                             </div>
                         </div>
-                        <div className="div-block-projects-seperate1">.</div>
 
-                        <div className="project-container">
-                            <div className="div-block-projects">.</div>
-                            <p className="projects-subtitle">Gaming App (Personal Project)</p>
-                            <div className="project-info-container" >
-                                <img className="project-photo" src="/images/gaming.jpg" />
-                                <p className="project-para">This has been a personal project of my own that I decided to do while studying at EDA, the main purpose of this website is to promote my friend's gaming channel.</p>
-                                <div className="div-block-projects">.</div>
-
-
+                        <div className="History-education-container">
+                            <h1 className="History-title">Education</h1>
+                            <p className="History-subtitle">These are the following certifications I've received up to this date:</p>
+                            <div className="History-list">
+                                <ls>
+                                    <li>NCEA levels 1, 2 and 3 (completed at Newlands College 2013-2015)</li>
+                                    <li>Basic First aid training (completed at New World Thorndon)</li>
+                                    <li>Fire Warden Training and Safety Training(completed at New World Churton Park)</li>
+                                    <li>Enpiral Dev Academy Web Development Training Scheme: NZQA level 6 with 72 credits (completed at Enspiral Dev Academy)</li>
+                                </ls>
                             </div>
                         </div>
-                        <div className="div-block-projects-seperate2">.</div>
+
                     </div>
 
-
-                    <div className="project-container">
-                        <div className="div-block-projects">.</div>
-                        <p className="projects-subtitle">Shopping Website (Udemy Final Project)</p>
-                        <div className="project-info-container">
-                            <img className="project-photo" src="/images/shopping.jpg" />
-                            <p className="project-para">This is a web app that I completed while doing my own personal study part time using the Udemy code course on Javascript. </p>
-                            <div className="div-block-projects">.</div>
-
-                        </div>
-                    </div>
-
-                    <div className="div-block-projects-seperate1"></div>
 
 
                 </div >
-
-            </div >
-
-
-
-
+            </div>
 
         )
 

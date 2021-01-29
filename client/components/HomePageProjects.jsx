@@ -53,7 +53,7 @@ class HomePageProjects extends React.Component {
                         <div className="div-block-projects">.</div>
                         <p className="projects-subtitle">Shopping Website (Udemy Final Project)</p>
                         <div className="project-info-container">
-                            <img className="project-photo" src="/images/shopping.jpg" />
+                            <img className="project-photo" src="/images/udemy.png" />
                             <p className="project-para">This is a web app that I completed while doing my own personal study part time using the Udemy code course on Javascript. <br></br><br></br>
                                 <Link className="Projects-redirect" to="/Projects">Check out more projects I've made right here!</Link></p>
 

@@ -17,7 +17,7 @@ class Home extends React.Component {
 
                     <div className="Hero-content">
                         <img className="Nav-hero-image" />
-                        <h1 className="title">Welcome To My Blog </h1>
+                        <h1 className="title">Welcome To My Portfolio </h1>
 
 
 
@@ -26,8 +26,7 @@ class Home extends React.Component {
                         <div className="content">
                             <div className="div-block">.</div>
                             <p className="intro-para">Hey! My name is Lui. Nice to meet you!
-                            I am a graduate web designer with a strong desire to become an outstanding front end developer. This website is solely focused around showing you (the viewer) who I am and what it is that I do. I will keep this blog up to date with
-                            all the latest news going on with my life. Hope you enjoy! </p>
+                            I am a graduate web designer with a strong desire to become an outstanding front end developer. This portfolio will display all my web applications that I've made/assisted in making. If you have any questions feel free to contact me through my email address. Hope you enjoy! </p>
 
                             <img className="profile-image" src="/images/profile1.jpg" />
                             <div className="div-block2">.</div>

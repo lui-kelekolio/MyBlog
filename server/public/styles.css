@@ -122,7 +122,7 @@ body {
   height: 75%;
   align-items: center;
   margin-right: 40px;
-  color:rgb(31, 31, 179) ;
+  color :rgb(0, 174, 255) ;
 }
 
 .div-block2 {
@@ -131,6 +131,7 @@ body {
   height: 75%;
   align-items: center;
   margin-left: 40px;
+  color :#113b96;
 }
 
 .div-block-projects {
@@ -811,6 +812,7 @@ body {
   height: 100%;
   color: #fff;
   background-size: cover;
+  border-radius: 3px;
 }
 
 #slides .slide_1 {

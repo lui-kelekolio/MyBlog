@@ -23,9 +23,14 @@ class Projects extends React.Component {
 
                 <div className="Website-intro-container">
                     <div className="div-block">.</div>
-                    <p className="Website-intro-para">Here are all the websites I've made/assisted in making up to date. I've put in a lot of time to put these web applications together so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course! </p>
+                    <p className="Website-intro-para">Here are all the websites I've made/assisted in making up to date. I've put in a lot of time to make these web applications so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course! </p>
                     <div className="div-block2">.</div>
                 </div>
+
+                <div className="Website-intro-title">
+                    <h1>Here are my projects:</h1>
+                </div>
+
 
                 <div className="Website-container">
                     <div id="slider">
@@ -50,7 +55,7 @@ class Projects extends React.Component {
                                     </div>
                                     <div class="slide slide_3">
                                         <div class="slide-content">
-                                            <h1 className="Website-title">Udemy Final Project</h1>
+                                            <h1 className="Website-title">Shopping App</h1>
                                             <p className="Website-subtitle">Udemy JS Course Final Exercise</p>
                                         </div>
                                     </div>

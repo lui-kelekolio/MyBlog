@@ -21,40 +21,57 @@ class Projects extends React.Component {
                 </div>
 
 
-                <div className="History-container">
-                    <div className="History-flex-container">
-                        <div className="History-work-container">
-                            <h1 className="History-title">Work History</h1>
-                            <p className="History-subtitle">Since leaving college I've worked for a few different places, these include:</p>
-                            <div className="History-list">
-                                <ls>
-                                    <li>Cleaning Assistant at New World Thorndon (September 2016 - January 2017)</li>
-                                    <li>Grocery Assistant at New World Thorndon (January 2017 - January 2018)</li>
-                                    <li>Grocery Supervisor at New World Thorndon (January 2018 - December 2019, March 2020 - July 2020)</li>
-                                    <li>Trainee Duty Manager at New World Churton Park (September 2020 - October 2020)</li>
-                                    <li>Duty Manager at New World Churton Park (October 2020 - Present)</li>
-                                </ls>
+                <div className="Website-intro-container">
+                    <div className="div-block">.</div>
+                    <p className="Website-intro-para">Here are all the websites I've made/assisted in making up to date. I've put in a lot of time to put these web applications together so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course! </p>
+                    <div className="div-block2">.</div>
+                </div>
+
+                <div className="Website-container">
+                    <div id="slider">
+                        <input type="radio" name="slider" id="slide1" defaultChecked></input>
+                        <input type="radio" name="slider" id="slide2" ></input>
+                        <input type="radio" name="slider" id="slide3" ></input>
+                        <input type="radio" name="slider" id="slide4" ></input>
+                        <div id="slides">
+                            <div id="overflow">
+                                <div class="inner">
+                                    <div class="slide slide_1">
+                                        <div class="slide-content">
+                                            <h1 className="Website-title">Follow My Lead</h1>
+                                            <p className="Website-subtitle">Enspiral Dev Academy Final Group Project</p>
+                                        </div>
+                                    </div>
+                                    <div class="slide slide_2">
+                                        <div class="slide-content">
+                                            <h1 className="Website-title">Gaming App</h1>
+                                            <p className="Website-subtitle">Personal Project</p>
+                                        </div>
+                                    </div>
+                                    <div class="slide slide_3">
+                                        <div class="slide-content">
+                                            <h1 className="Website-title">Udemy Final Project</h1>
+                                            <p className="Website-subtitle">Udemy JS Course Final Exercise</p>
+                                        </div>
+                                    </div>
+                                    <div class="slide slide_4">
+                                        <div class="slide-content">
+                                            <h1 className="Website-title">Minesweeper</h1>
+                                            <p className="Website-subtitle">Enspiral Dev Academy JS</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div className="History-education-container">
-                            <h1 className="History-title">Education</h1>
-                            <p className="History-subtitle">These are the following certifications I've received up to this date:</p>
-                            <div className="History-list">
-                                <ls>
-                                    <li>NCEA levels 1, 2 and 3 (completed at Newlands College 2013-2015)</li>
-                                    <li>Basic First aid training (completed at New World Thorndon)</li>
-                                    <li>Fire Warden Training and Safety Training(completed at New World Churton Park)</li>
-                                    <li>Enpiral Dev Academy Web Development Training Scheme: NZQA level 6 with 72 credits (completed at Enspiral Dev Academy)</li>
-                                </ls>
-                            </div>
+                        <div id="controls">
+                            <label htmlFor="slide1"></label>
+                            <label htmlFor="slide2"></label>
+                            <label htmlFor="slide3"></label>
+                            <label htmlFor="slide4"></label>
                         </div>
+                    </div >
+                </div>
 
-                    </div>
-
-
-
-                </div >
             </div>
 
         )

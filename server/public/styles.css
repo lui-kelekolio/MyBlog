@@ -739,6 +739,13 @@ body {
   position: relative;
 }
 
+.Website-intro-title {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.7rem;
+  color:#0c265f;
+}
+
 
 
 

@@ -38,7 +38,7 @@ class History extends React.Component {
                             <ls>
                                 <li>NCEA levels 1, 2 and 3 (completed at Newlands College 2013-2015)</li>
                                 <li>Basic First aid training (completed at New World Thorndon)</li>
-                                <li>Fire Warden Training and Safety Training(completed at New World Churton Park)</li>
+                                <li>Fire Warden Training and Safety Training (completed at New World Churton Park)</li>
                                 <li>Enpiral Dev Academy Web Development Training Scheme: NZQA level 6 with 72 credits (completed at Enspiral Dev Academy)</li>
                             </ls>
                         </div>

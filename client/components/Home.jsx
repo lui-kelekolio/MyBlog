@@ -26,7 +26,7 @@ class Home extends React.Component {
                         <div className="content">
                             <div className="div-block">.</div>
                             <p className="intro-para">Hey! My name is Lui. Nice to meet you!
-                            I am a graduate web designer with a strong desire to become an outstanding front end developer. This portfolio will display all my web applications that I've made/assisted in making. If you have any questions feel free to contact me through my email address. Hope you enjoy! </p>
+                            I am a graduate web designer with a strong desire to become an outstanding front end developer. This portfolio will display all my web applications that I've made/assisted in making. If you have any questions feel free to contact me. Hope you enjoy! </p>
 
                             <img className="profile-image" src="/images/profile1.jpg" />
                             <div className="div-block2">.</div>
@@ -37,13 +37,13 @@ class Home extends React.Component {
 
                             <div className="hobbies-container">
                                 <div className="about-title">
-                                    <h1>Hobbies/Interests</h1>
+                                    <h1>What is this?</h1>
                                 </div>
                                 <div className="hobbies-image-div">
                                     {/* <Link to='/Hobbies'><img className="hobbies-image" src="/images/received_474066093286936.jpeg" /></Link> */}
                                 </div>
                                 <div>
-                                    <p className="hobbies-para">Outside of coding I very much enjoy sports, listening to music, playing video games and spending time with friends and family. At the moment my favourite game would have to be Rocket League.<br></br> Add me! Would be cool to play some time!<br></br><br></br><a className="steam-link" href="https://steamcommunity.com/profiles/76561198179209627/">Steam Profile click here!</a></p>
+                                    <p className="hobbies-para">This here is my current portfolio. The main purpose of this portfolio is to put myself out there and give you a brief introduction of myself. I will also be displaying all of the applications I've developed to show you the current technical level I am at. I am always willing to accept feedback and advice to further improve my skills so please let me know through my contact details what it is I can work on, thanks in advance! In short I suppose this is a digital copy of my C.V.</p>
                                 </div>
 
 
@@ -51,25 +51,25 @@ class Home extends React.Component {
 
                             <div className="about-me-container">
                                 <div className="about-title">
-                                    <h1>About Me</h1>
+                                    <h1>A bit about me</h1>
                                 </div>
                                 <div className="about-image-div">
                                     {/* <Link to='/About'><img className="about-image" src=" /images/profile1.jpg" /></Link> */}
                                 </div>
                                 <div>
-                                    <p className="about-me-para">My name is Lui Kelekolio. I'm 23 years old and was both born and raised in  Wellington New Zealand. I am an aspiring front end developer with a diploma in level 6 UI/UX Web design. I've studied at places such as Yoobee's School of design and En Spiral Dev Academy so I have experience when it comes to maintaining a functionally, aesthetically pleasing website.</p>
+                                    <p className="about-me-para">My name is Lui Kelekolio. I'm 23 years old and come from both Tokelau and Samoa but was born and raised in Welligton, New Zealand. I have been coding for a little under two years and have been loving it ever since. I've seen some amazing web creations from people over the world and I believe this is one of the main reasons why my dream is to become an outstanding front end developer. Outside of coding I love listening to music, gaming and hanging with friends and family. </p>
                                 </div>
                             </div>
 
                             <div className="plan-container">
                                 <div className="about-title">
-                                    <h1>Future Plans</h1>
+                                    <h1>Future plans</h1>
                                 </div>
                                 <div className="plan-image-div">
                                     {/* <Link to='/Plan'><img className="plan-image" src="/images/kahu1.jpg" /></Link> */}
                                 </div>
                                 <div>
-                                    <p className="plan-para">My goal is to become an efficient front end developer. I still have a lot to do to achieve this goal but I have never been more motivated to give this my all. I plan on further improving my knowledge and technical skills to help me achieve this goal.</p>
+                                    <p className="plan-para">I have a few goals that I am aiming to achieve throughout my life. One major career goal for me is to work as a front end developer. I am currently working as a freelancer, developing my technical skills in order to get closer to this goal. By putting in the time in to practice I believe I'll be able to achieve this goal very soon. A personal goal of mine would be to travel around the world, however with what's going on right now I doubt I'll be able to achieve this goal for quite some time.</p>
                                 </div>
 
                             </div>

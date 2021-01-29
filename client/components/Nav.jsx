@@ -18,7 +18,7 @@ class Nav extends React.Component {
             <div className="nav">
 
                 <div className="logo">
-                    <h1>Lui's Blog</h1>
+                    <h1>Lui's Portfolio</h1>
                 </div>
 
                 <div className="navbar-container">

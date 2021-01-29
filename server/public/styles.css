@@ -738,6 +738,7 @@ body {
   font-size: 1.5rem;
   top: 40px;
   position: relative;
+  font-weight: 800;
 }
 
 .Website-intro-title {
@@ -816,22 +817,22 @@ body {
 }
 
 #slides .slide_1 {
-background-image: url(images/dog-view1.jpg);
+background-image: url(images/dog-walk.png);
 /* background-size: contain; */
 background-repeat: no-repeat;
 }
 #slides .slide_2 {
-  background-image: url(images/gaming.jpg);
+  background-image: url(images/gaming1.jpg);
   /* background-size: contain; */
   background-repeat: no-repeat;
 }
 #slides .slide_3 {
-  background-image: url(images/udemy4.jpg );
-  background-size: contain;
+  background-image: url(images/udemy5.jpg );
+  /* background-size: contain; */
   background-repeat: no-repeat;
 }
 #slides .slide_4 {
-  background-image: url(images/minesweep.jpg);
+  background-image: url(images/mineweep1.jpg);
   /* background-size: contain; */
   background-repeat: no-repeat;
 }

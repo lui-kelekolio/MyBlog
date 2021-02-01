@@ -21,12 +21,12 @@ function About() {
             <div className="about-me-container2">
 
                 <div className="about-me-content2">
-                    <p className="about-me-content">If I'm not coding or hanging out with friends and family I'm usually out and about taking photos. Recently I've taken quite a liking to photography, there seems to be something about capturing a single moment in time that has me hooked.  </p>
+                    <p className="about-me-content">I was first introduced to coding through my best friend who had previously studied at Whitecliff. He convinced me to attend a bootcamp style course known as Enspiral Dev Academy. Through this course I was able to build a newly found passion for coding. I was also granted the opportunity to meet and work with some amazing young developers like myself!</p>
                 </div>
-                <img className="about-me-profile" src="/images/boys2.jpeg" />
+                <img className="about-me-profile" src="/images/kahu7.jpg" />
             </div>
             <div className="about-me-container1">
-                <img className="about-me-profile" src="/images/boys.jpg" />
+                <img className="about-me-profile" src="/images/boys2.jpeg" />
                 {/* <h1 className="about-me-title">Hey! I'm Lui Kelekolio</h1> */}
                 <p className="about-me-content">My dream is to become an outstanding front end developer, with this in mind I've dedicated most of my time to improving my technical skills. I've still got a long way to go before I can say that I've achieved this dream but I'm looking forward to the journey ahead. </p>
             </div>

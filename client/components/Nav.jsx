@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+// import ScriptTag from 'react-script-tag';
 
+// const Demo = props => (<ScriptTag type="text/javascript" src="/path/to/resource.js" />)
 
 
 class Nav extends React.Component {

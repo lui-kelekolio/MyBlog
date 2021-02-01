@@ -27,7 +27,7 @@ class HomePageProjects extends React.Component {
                             <p className="projects-subtitle">Follow My Lead (EDA Final Group Project)</p>
                             <div className="project-info-container">
                                 <img className="project-photo" src="/images/ice-dog.jpg" />
-                                <p className="project-para">This is a website that me and five other developers made during our final week of EDA. We call it Follow My Lead. This web app gives you the opportunity to connect will fellow dog lovers in your area to meet and arrange dog walks with them.</p>
+                                <p className="project-para">This is a website that me and five other developers made during our final week of EDA. We call it Follow My Lead. This web app gives you the opportunity to connect with fellow dog lovers in your area to meet and arrange dog walks with them.</p>
                                 <div className="div-block-projects">.</div>
 
                             </div>

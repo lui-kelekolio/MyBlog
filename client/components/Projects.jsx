@@ -20,16 +20,12 @@ class Projects extends React.Component {
                     <h1 className="whoami-title">My Projects</h1>
                 </div>
 
-
+                {/* 
                 <div className="Website-intro-container">
                     <div className="div-block">.</div>
-                    <p className="Website-intro-para">Here are all the websites I've made/assisted in making up to date. I've put in a lot of time to make these web applications so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course! </p>
-                    <div className="div-block2">.</div>
-                </div>
+                    <p className="Website-intro-para">Here are all the web applications I've made/assisted in making up to date. I've put in a lot of time to make these web apps so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course! </p>
 
-                <div className="Website-intro-title">
-                    <h1>Here are my projects:</h1>
-                </div>
+                </div> */}
 
 
                 <div className="Website-container">
@@ -75,6 +71,7 @@ class Projects extends React.Component {
                             <label htmlFor="slide4"></label>
                         </div>
                     </div >
+                    <img className="Website-intro-clipart" src="/images/presenting1.jpg" />
                 </div>
 
             </div>

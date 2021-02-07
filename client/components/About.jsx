@@ -8,8 +8,9 @@ function About() {
     return (
 
         <main>
-            < Nav />
+
             <div className="who-am-i-container">
+                < Nav />
                 <img className="whoami-hero-image" />
                 <h1 className="whoami-title">About me</h1>
             </div>

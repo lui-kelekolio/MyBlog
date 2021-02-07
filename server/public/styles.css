@@ -21,8 +21,10 @@ html, body{
   text-align: center;
   position: sticky;
   top: 0;
-  z-index: 10000;
+  z-index: 10;
   opacity: 97%;
+  box-sizing: border-box;   
+  width: 100%;
 }
 
 
@@ -65,25 +67,6 @@ html, body{
 
 /*Home-Page*/
 
-
-.Hero-content {
-  position: relative;
-  margin-bottom: 5%;
-  top: 0;
-
-}
-.title {
-  font-size: 90px;
-  color: white;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  position: absolute;
-  font-size: 3rem;
-  top: 3%;
-  left: 25%;
-  right: 25%;
-}
-
 .sub-title {
   font-size:1.5rem;
   color: white;
@@ -97,14 +80,15 @@ html, body{
 
 
 .Nav-hero-image {
-  background-image: linear-gradient(50deg,#04255b 4%,rgba(60, 98, 156, 0.486) 39%,rgba(0,74,188,0)), url(images/wellington.jpg);
+  top: -10px;
+  background-image: linear-gradient(50deg,#001cbd7e 4%,rgba(0, 76, 241, 0.226) 39%,rgba(255, 255, 255, 0.103)), url(images/wellington.jpg);
   width: 100%;
   background-position: 0 0,50% 30%;
-  position: sticky;
-
+  position: relative;
   background-size: auto,cover;
   background-repeat: repeat,no-repeat;
   background-attachment: scroll,scroll;
+  z-index: -10;
   height: 550px;
 }
 
@@ -174,6 +158,46 @@ html, body{
 
 }
 
+.content2 {
+  background-color:#f0fbff;
+  display: flex;
+  align-items: center;
+  padding-bottom: 200px;
+  padding-right: 100px ;
+  padding-left: 100px ;
+  padding-top: 200px;
+  border-radius: 1px;
+  height: 250px;
+  max-height: 250px;
+  min-height: 250px ;
+}
+
+
+
+.photos-redirect {
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  left: 33%;
+  right: 33%;
+  width: 100%;
+  transition: ease-in-out 0.2s;
+  text-decoration: none;
+  color: white;
+  background-color:#113b96 ;
+  border-radius: 2px;
+  padding: 10px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.photos-redirect:hover {
+  color:white;
+  background-color: #399fff;
+  transition: ease-in-out 0.2s;
+}
+
+
 .intro-para {
   flex: 3;
   width: 100%;
@@ -183,9 +207,7 @@ html, body{
   font-family: 'Heebo', sans-serif;
   color: #113b96;
   border-radius: 5%;
-  padding:2%;
-  max-width: auto;
-  min-width: 550px;
+  padding:2%;    
 }
 
 
@@ -194,8 +216,6 @@ html, body{
   max-height:250px;
   max-width: 250px;
   border-radius: 50%;
-  border-color: #0117c0;
-  border-style: solid;
   margin-right: 50px;
   margin-left: 50px;
   /* margin-right: 50px; */
@@ -233,20 +253,6 @@ html, body{
   font-family: 'Merriweather', serif;
 }
 
-.about-image{
-  width: 400px;
-  height:200px;
-  border-radius: 3px;
-}
-
-.about-me-para {
-  margin: 30px;
-  color: #0c265f;
-  font-size: 1.2rem;
-  font-family: 'Heebo', sans-serif;
-  padding: 20px;
-}
-
 
 
 
@@ -262,28 +268,14 @@ html, body{
   border-radius: 5px;
 }
 
-.hobbies-image{
-  width: 400px;
-  height:200px;
-  border-radius: 3px;
-}
 
-.hobbies-para {
+.content-para {
   margin: 30px;
   color: #0c265f;
   font-size: 1.2rem;
   font-family: 'Heebo', sans-serif;
   padding: 20px;
-}
-
-.steam-link{
-  
-  font-size: x-large;
-  color: #113b96;
-}
-
-.steam-link:hover{
-  color:  #1555df;
+  text-align: left;
 }
 
 .plan-container {
@@ -297,29 +289,6 @@ html, body{
   transition: ease-out 0.2s;
   border-radius: 5px;
 }
-
-
-.plan-image{
-  width: 400px;
-  height:200px;
-  border-radius: 3px;
-}
-
-
-.plan-para {
-  margin: 30px;
-  color: #0c265f;
-  font-size: 1.2rem;
-  padding: 20px;
-  font-family: 'Heebo', sans-serif;
-}
-
-
-.plan-image:hover{
-
-}
-
-
 
 
 
@@ -348,7 +317,7 @@ html, body{
 
 .whoami-hero-image {
   background-image: linear-gradient(50deg,#001cbd7e 4%,rgba(0, 76, 241, 0.226) 39%,rgba(255, 255, 255, 0.103)), url(images/photography4.jpg);
-  top: 0;
+  top: -10px;
   width: 100%;
   background-position: 0 0,50% 30%;
   position: relative;
@@ -373,7 +342,7 @@ html, body{
 .about-me-container1{
   background-color: white;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   padding: 5%;
   display: flex;
   align-items: center;
@@ -385,11 +354,11 @@ html, body{
   border-radius: 3px;
   box-shadow: 5px 10px 18px  #616d88;
 }
-
-.about-me-title{
-  font-family: 'Heebo', sans-serif;
-  font-size: 3rem;
-  color: #000740;
+.about-me-profile1{
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  box-shadow: 5px 10px 18px  #616d88;
 }
 
 .about-me-content {
@@ -412,11 +381,6 @@ html, body{
 }
 
 
-.about-me-title2{
-  font-family: 'Courgette', cursive;
-  font-size: 5rem;
-  color: white;
-}
 .about-me-content2 { 
   font-size: 1.5rem;
   margin-left: auto;
@@ -463,6 +427,7 @@ html, body{
 .plan-hero-image {
   width: 100%;
   height: 50%;
+  
 }
 
 
@@ -568,7 +533,8 @@ html, body{
 
 .projects-hero-image {
   background-image: linear-gradient(50deg,#001cbd7e 4%,rgba(0, 76, 241, 0.226) 39%,rgba(255, 255, 255, 0.103)), url(images/projects1.jpg);
-  top: 0;
+
+  top: -10px;
   width: 100%;
   background-position: 0 0,50% 30%;
   position: relative;
@@ -638,7 +604,7 @@ html, body{
 
 .Contact-hero-image {
   background-image: linear-gradient(50deg,#001cbd7e 4%,rgba(0, 76, 241, 0.226) 39%,rgba(255, 255, 255, 0.103)), url(images/contact1.jpg);
-  top: 0;
+  top: -10px;
   width: 100%;
   background-position: 0 0,50% 30%;
   position: relative;
@@ -664,7 +630,7 @@ html, body{
 
 .photos-hero-image {
   background-image: linear-gradient(50deg,#001cbd7e 4%,rgba(0, 76, 241, 0.226) 39%,rgba(255, 255, 255, 0.103)), url(images/photogallery1.jpg);
-  top: 0;
+  top: -10px;
   width: 100%;
   background-position: 0 0,50% 30%;
   position: relative;
@@ -722,15 +688,28 @@ html, body{
   color: white;
   font-family: 'Merriweather', serif;
   font-size: 4rem;
+  text-align: center;
+  position: relative;
 }
 
 .Website-subtitle {
   color: white;
   font-family: 'Heebo', sans-serif;
   font-size: 1.5rem;
-  top: 40px;
+  top: 150px;
+
   position: relative;
   font-weight: 800;
+  text-align: center;
+}
+
+.Website-intro-container {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.Website-intro-para {
+  text-align: center;
 }
 
 .Website-intro-title {
@@ -738,6 +717,7 @@ html, body{
   font-family: 'Merriweather', serif;
   font-size: 1.7rem;
   color:#0c265f;
+
 }
 
 
@@ -747,7 +727,7 @@ html, body{
 /* Slider css */
 #slider {
   margin: 0 auto;
-  width: 800px;
+  /* height: 1000px; */
   max-width: 100%;
   text-align: center;
   background-color:white;
@@ -793,7 +773,7 @@ html, body{
   transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
   width: 400%;
   line-height: 0;
-  height: 500px;
+  height: 800px;
 }
 
 #slides .slide {
@@ -805,12 +785,12 @@ html, body{
   height: 100%;
   color: #fff;
   background-size: cover;
-  border-radius: 3px;
+
 }
 
 #slides .slide_1 {
-background-image: url(images/dog-walk.png);
-/* background-size: contain; */
+background-image: url(images/dog-view.jpg);
+background-size: cover;
 background-repeat: no-repeat;
 }
 #slides .slide_2 {
@@ -819,7 +799,7 @@ background-repeat: no-repeat;
   background-repeat: no-repeat;
 }
 #slides .slide_3 {
-  background-image: url(images/udemy5.jpg );
+  background-image: url(images/udemy3.jpg );
   /* background-size: contain; */
   background-repeat: no-repeat;
 }
@@ -834,11 +814,17 @@ background-repeat: no-repeat;
 }
 
 #controls {
-  margin: -130px 0 0 0;
-  width: 100%;
+  margin: -300px 0 0 0;
+  width: 50%;
   height: 50px;
   z-index: 3;
   position: relative;
+  justify-content: center;
+  text-align: center;
+  left: 25%;
+  right: 25%;
+  color: white;
+  
 }
 
 #controls label {
@@ -847,6 +833,7 @@ background-repeat: no-repeat;
   width: 50px;
   height: 50px;
   opacity: .4;
+
 }
 
 #controls label:hover {
@@ -858,6 +845,9 @@ background-repeat: no-repeat;
 #slide3:checked ~ #controls label:nth-child(4),
 #slide4:checked ~ #controls label:nth-child(1) {
   background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+  background-color: white;
+  border-radius: 100%;
+  
   float: right;
   margin: 0 -50px 0 0;
   display: block;
@@ -868,8 +858,11 @@ background-repeat: no-repeat;
 #slide3:checked ~ #controls label:nth-last-child(3),
 #slide4:checked ~ #controls label:nth-last-child(2) {
   background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  background-color: white;
+  border-radius: 100%;
+  
   float: left;
-  margin: 0 0 0 -50px;
+  margin: 0 -50px 0 0;
   display: block;
 }
 
@@ -885,6 +878,11 @@ background-repeat: no-repeat;
   width: 100%;
 
 } */
+
+.Contact-container {
+  align-items: center;
+  text-align: center;
+}
 
 .Contact-logo {
   height: 100px;

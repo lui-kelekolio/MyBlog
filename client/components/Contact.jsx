@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Nav from './Nav'
 
 
 class Contact extends React.Component {
@@ -16,6 +16,7 @@ class Contact extends React.Component {
 
             <div>
                 <div className="who-am-i-container">
+                    <Nav />
                     <img className="Contact-hero-image" />
                     <h1 className="whoami-title">Contact</h1>
                 </div>
@@ -27,11 +28,10 @@ class Contact extends React.Component {
                 </div>
 
                 <div className="Contact-container">
-                    <img className="Contact-logo" src="/images/fb.webp" />
-                    <img className="Contact-logo" src="/images/insta.webp" />
-                    <img className="Contact-logo" src="/images/steam.png" />
-                    <img className="Contact-logo" src="/images/github.png" />
-                    <img className="Contact-logo" src="/images/linkedin.png" />
+                    <a href="https://www.facebook.com/lui.kelekolio.5/" ><img className="Contact-logo" src="/images/fb.webp" /></a>
+                    <a href="https://www.instagram.com/looooowaay/"><img className="Contact-logo" src="/images/insta.webp" /></a>
+                    <a href="https://github.com/lui-kelekolio"><img className="Contact-logo" src="/images/github.png" /></a>
+                    <a href="https://www.linkedin.com/in/lui-kelekolio-b43b541a4/" ><img className="Contact-logo" src="/images/linkedin.png" /></a>
                     <img className="Contact-logo" src="/images/gmail.jpg" />
 
                 </div >

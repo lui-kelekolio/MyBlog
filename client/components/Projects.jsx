@@ -15,6 +15,7 @@ class Projects extends React.Component {
         return (
 
             <div>
+
                 <div className="who-am-i-container">
                     <Nav />
                     <img className="projects-hero-image" />

@@ -1,6 +1,6 @@
 import React from 'react';
 import History from './History'
-
+import Nav from './Nav'
 // import { HashRouter as Router, Route } from 'react-router-dom'
 
 
@@ -8,6 +8,7 @@ function About() {
     return (
 
         <main>
+            < Nav />
             <div className="who-am-i-container">
                 <img className="whoami-hero-image" />
                 <h1 className="whoami-title">About me</h1>
@@ -32,6 +33,15 @@ function About() {
             </div>
 
             <History />
+
+            <div className="Steam-container">
+                <div className="about-me-container1">
+
+                    {/* <h1 className="about-me-title">Hey! I'm Lui Kelekolio</h1> */}
+                    <p className="about-me-content">My dream is to become an outstanding front end developer, with this in mind I've dedicated most of my time to improving my technical skills. I've still got a long way to go before I can say that I've achieved this dream but I'm looking forward to the journey ahead. </p>
+                    <img className="about-me-profile1" src="/images/steam.png" />
+                </div>
+            </div>
 
 
             {/* <div className="" */}

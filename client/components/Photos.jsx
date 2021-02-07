@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Nav from './Nav'
 // import { HashRouter as Router, Route } from 'react-router-dom'
 
 
@@ -8,6 +8,7 @@ function Photos() {
 
         <main>
             <div className="who-am-i-container">
+                <Nav />
                 <img className="photos-hero-image" />
                 <h1 className="whoami-title">Photo Gallery</h1>
             </div>

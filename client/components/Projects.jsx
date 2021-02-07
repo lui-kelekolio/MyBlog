@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Nav from './Nav'
 
 
 class Projects extends React.Component {
@@ -16,16 +16,17 @@ class Projects extends React.Component {
 
             <div>
                 <div className="who-am-i-container">
+                    <Nav />
                     <img className="projects-hero-image" />
                     <h1 className="whoami-title">My Projects</h1>
                 </div>
 
-                {/* 
-                <div className="Website-intro-container">
-                    <div className="div-block">.</div>
-                    <p className="Website-intro-para">Here are all the web applications I've made/assisted in making up to date. I've put in a lot of time to make these web apps so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course! </p>
 
-                </div> */}
+                <div className="Website-intro-container">
+
+                    <p className="Website-intro-para">Here are all the web applications I've made/assisted in making up to date. I've put in a lot of time to make these web apps so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course!  <br></br><br></br> Here are my projects:</p>
+
+                </div>
 
 
                 <div className="Website-container">
@@ -71,7 +72,7 @@ class Projects extends React.Component {
                             <label htmlFor="slide4"></label>
                         </div>
                     </div >
-                    <img className="Website-intro-clipart" src="/images/presenting1.jpg" />
+
                 </div>
 
             </div>

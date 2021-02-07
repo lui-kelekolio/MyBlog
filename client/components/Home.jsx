@@ -14,8 +14,8 @@ class Home extends React.Component {
         return (
             <>
                 <main>
+                    <Nav />
                     <div>
-                        <Nav />
                         <img className="Nav-hero-image" />
                         <h1 className="whoami-title">Welcome To My Portfolio </h1>
                     </div>

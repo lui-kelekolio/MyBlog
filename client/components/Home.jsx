@@ -14,10 +14,15 @@ class Home extends React.Component {
         return (
             <>
                 <main>
-                    <Nav />
-                    <div>
-                        <img className="Nav-hero-image" />
-                        <h1 className="whoami-title">Welcome To My Portfolio </h1>
+
+                    <div className="Home-Hero-div">
+                        <h1 className="Hero-title">Welcome To My Portfolio </h1>
+                        <div className="Hero-image-container">
+                            <img className="Hero-image" src="/images/kahu1.jpg" />
+                        </div>
+                        <div className="Toggle-background">
+                            <span className="Toggle-background-color"></span>
+                        </div>
                     </div>
 
 
@@ -71,13 +76,13 @@ class Home extends React.Component {
                             </div>
 
                         </div>
-
-                    </div>
-                    <div className="projects-main-container">
-                        <div className="Projects-title-container">
-                            <h1 className="projects-title">Here are a few of my projects:</h1>
+                        <div className="projects-main-container">
+                            <div className="Projects-title-container">
+                                <h1 className="projects-title">Here are a few of my projects:</h1>
+                            </div>
                         </div>
                     </div>
+
                     <Projects />
                     {/* 
                     <div className="photo-content">

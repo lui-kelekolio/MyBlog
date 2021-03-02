@@ -33,7 +33,7 @@ class Nav extends React.Component {
                 <div className="Navbar-links">
                     <ul>
                         <li><Link className="Navbar-button" to="/contact">Contact</Link></li>
-                        <li><Link className="Navbar-button" to="/about">About</Link></li>
+                        <li><Link className="Navbar-button" to="/about">About Me</Link></li>
                         <li><Link className="Navbar-button" to="/projects">Projects</Link></li>
                         {/* <li><Link className="Navbar-button" to="/photos">Photo Gallery</Link></li> */}
                         <li><Link className="Navbar-button" to="/">Home</Link></li>

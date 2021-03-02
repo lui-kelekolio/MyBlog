@@ -17,7 +17,7 @@ const App = () => {
   return (
     <Router>
       <React.Fragment>
-
+        <Route exact path="/" component={Nav} />
         <Route exact path="/" component={Home} />
 
         <Route exact path="/about" component={About} />

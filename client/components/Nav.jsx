@@ -6,10 +6,15 @@ import { Link } from 'react-router-dom'
 
 
 class Nav extends React.Component {
-    constructor() {
-        super()
+    componentDidMount() {
 
-        this.state = {}
+        const toggleButton = document.getElementsByClassName("Toggle-button")[0]
+        const navBarLinks = document.getElementsByClassName("Navbar-links")[0]
+
+        toggleButton.addEventListener('click', () => {
+            navBarLinks.classList.toggle('active')
+        })
+
     }
 
 
@@ -17,22 +22,26 @@ class Nav extends React.Component {
         return (
 
 
-            <div className="nav">
+            <div className="Navbarcontainer">
 
-                <div className="logo">
-                    <h1>Lui's Portfolio</h1>
+                <div className="Navbar-logo">Lui's Portfolio</div>
+                <a className="Toggle-button">
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </a>
+                <div className="Navbar-links">
+                    <ul>
+                        <li><Link className="Navbar-button" to="/contact">Contact</Link></li>
+                        <li><Link className="Navbar-button" to="/about">About</Link></li>
+                        <li><Link className="Navbar-button" to="/projects">Projects</Link></li>
+                        {/* <li><Link className="Navbar-button" to="/photos">Photo Gallery</Link></li> */}
+                        <li><Link className="Navbar-button" to="/">Home</Link></li>
+                    </ul>
                 </div>
 
-                <div className="navbar-container">
-                    <Link className="nav-link" to="/contact">Contact</Link>
-                    <Link className="nav-link" to="/about">About</Link>
-                    <Link className="nav-link" to="/projects">Projects</Link>
-                    <Link className="nav-link" to="/photos">Photo Gallery</Link>
-                    <Link className="nav-link" to="/">Home</Link>
-                </div>
 
-
-            </div>
+            </div >
 
         )
 

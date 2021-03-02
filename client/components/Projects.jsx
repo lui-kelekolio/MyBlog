@@ -19,7 +19,7 @@ class Projects extends React.Component {
                 <div className="Home-Hero-div">
                     <h1 className="Hero-title">Projects </h1>
                     <div className="Hero-image-container">
-                        <img className="Hero-image" src="/images/kahu1.jpg" />
+                        <img className="Hero-image" src="/images/projects1.jpg" />
                     </div>
                     <div className="Toggle-background">
                         <span className="Toggle-background-color"></span>

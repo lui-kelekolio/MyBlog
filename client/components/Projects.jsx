@@ -15,17 +15,21 @@ class Projects extends React.Component {
         return (
 
             <div>
-
-                <div className="who-am-i-container">
-                    <Nav />
-                    <img className="projects-hero-image" />
-                    <h1 className="whoami-title">My Projects</h1>
+                <Nav />
+                <div className="Home-Hero-div">
+                    <h1 className="Hero-title">Projects </h1>
+                    <div className="Hero-image-container">
+                        <img className="Hero-image" src="/images/kahu1.jpg" />
+                    </div>
+                    <div className="Toggle-background">
+                        <span className="Toggle-background-color"></span>
+                    </div>
                 </div>
 
 
-                <div className="Website-intro-container">
+                <div className="content">
 
-                    <p className="Website-intro-para">Here are all the web applications I've made/assisted in making up to date. I've put in a lot of time to make these web apps so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course!  <br></br><br></br> Here are my projects:</p>
+                    <p className="intro-para">Here are all the web applications I've made/assisted in making up to date. I've put in a lot of time to make these web apps so I hope you like them! Feel free to share some feedback so I know what I can do to improve them. Plenty more to come of course!  <br></br><br></br> Here are my projects:</p>
 
                 </div>
 

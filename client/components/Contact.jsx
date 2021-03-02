@@ -18,7 +18,12 @@ class Contact extends React.Component {
                 <Nav />
                 <div className="Home-Hero-div">
                     <h1 className="Hero-title">Contact</h1>
-                    <img className="Nav-hero-image" />
+                    <div className="Hero-image-container">
+                        <img className="Hero-image" src="/images/contact1.jpg" />
+                    </div>
+                    <div className="Toggle-background">
+                        <span className="Toggle-background-color"></span>
+                    </div>
 
                 </div>
                 <div className="content">

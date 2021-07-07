@@ -1,34 +1,61 @@
 import React from 'react';
-
+import History from './History'
+import Nav from './Nav'
 // import { HashRouter as Router, Route } from 'react-router-dom'
 
 
-    function About() {
-        return (
+function About() {
+    return (
 
-                <main>
-                    <div className="About-container">
-                    <img className="about-hero-image" src="/images/jared-rice-PibraWHb4h8-unsplash.jpg" />
-                       
-                        <img className="about-image-logo" src="/images/Logo2 - Copy.png"></img>
-                        <div className="about-content-container">
-                        <div className="about-blurb-headline"><h1>Welcome to my new website!</h1></div>
-                        <div className="about-blurb-subtext">A result from the circle function is a picture value, which prints as an expression result in much the same way that numbers or strings print. The argument to circle determines the circle’s size in pixels.<br></br> As you might guess, there’s a rectangle function that takes two arguments instead of one:</div>
-                        </div>
-                    </div>
+        <main>
+            < Nav />
+            <div className="Home-Hero-div">
+                <h1 className="Hero-title">About Me </h1>
+                <div className="Hero-image-container">
+                    <img className="Hero-image" src="/images/homegrown.jpeg" />
+                </div>
+                <div className="Toggle-background">
+                    <span className="Toggle-background-color"></span>
+                </div>
+            </div>
+
+            <div className="about-me-container1">
+                <img className="about-me-profile" src="/images/profile2.jpg" />
+                {/* <h1 className="about-me-title">Hey! I'm Lui Kelekolio</h1> */}
+                <p className="about-me-content">I'm a 23 year old Wellingtonian with about two years of coding experience under my belt. Other major interests include gaming, listening to music, playing sports, hanging out with mates and spending time with the fam. I also enjoy the odd beer or two on the weekends to celebrate making it through the week.  </p>
+            </div>
+            <div className="about-me-container2">
+
+                <div className="about-me-content2">
+                    <p className="about-me-content">I was first introduced to coding through my best friend who had previously studied at Whitecliff. He convinced me to attend a bootcamp style course known as Enspiral Dev Academy. Through this course I was able to build a newly found passion for coding. I was also granted the opportunity to meet and work with some amazing young developers like myself!</p>
+                </div>
+                <img className="about-me-profile" src="/images/kahu7.jpg" />
+            </div>
+            <div className="about-me-container1">
+                <img className="about-me-profile" src="/images/boys2.jpeg" />
+                {/* <h1 className="about-me-title">Hey! I'm Lui Kelekolio</h1> */}
+                <p className="about-me-content">My dream is to become an outstanding front end developer, with this in mind I've dedicated most of my time to improving my technical skills. I've still got a long way to go before I can say that I've achieved this dream but I'm looking forward to the journey ahead. </p>
+            </div>
+
+            <History />
+
+            <div className="Steam-container">
+                <div className="about-me-container1">
+
+                    {/* <h1 className="about-me-title">Hey! I'm Lui Kelekolio</h1> */}
+                    <p className="about-me-content">My dream is to become an outstanding front end developer, with this in mind I've dedicated most of my time to improving my technical skills. I've still got a long way to go before I can say that I've achieved this dream but I'm looking forward to the journey ahead. </p>
+                    {/* <img className="about-me-profile1" src="/images/steam.png" /> */}
+                </div>
+            </div>
 
 
-                    <div className="who-we-are-container">
-                        <div className="wwa-blurb-headline"><h1>Who are we?</h1></div>
-                        <div className="wwa-blurb-subtext">A result from the circle function is a picture value, which prints as an expression result in much the same way that numbers or strings print. The argument to circle determines the circle’s size in pixels.<br></br> As you might guess, there’s a rectangle function that takes two arguments instead of one:</div>
-                    </div>
-                    
+            {/* <div className="" */}
 
-                </main>
+        </main >
 
-            
-        )
-    }
+
+    )
+}
 
 
 

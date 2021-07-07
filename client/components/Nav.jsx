@@ -1,13 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+// import ScriptTag from 'react-script-tag';
 
+// const Demo = props => (<ScriptTag type="text/javascript" src="/path/to/resource.js" />)
 
 
 class Nav extends React.Component {
-    constructor() {
-        super()
+    componentDidMount() {
 
-        this.state = {}
+        const toggleButton = document.getElementsByClassName("Toggle-button")[0]
+        const navBarLinks = document.getElementsByClassName("Navbar-links")[0]
+
+        toggleButton.addEventListener('click', () => {
+            navBarLinks.classList.toggle('active')
+        })
+
     }
 
 
@@ -15,24 +22,26 @@ class Nav extends React.Component {
         return (
 
 
-        <div className="nav">
-  
-            {/* <div className="box2">
-                <h1 className="logo">Lui Kelekolio</h1>
-            </div> */}
+            <div className="Navbarcontainer">
 
-            {/* <div className="Login"><h1>Oasis Savon</h1></div> */}
+                <div className="Navbar-logo">Lui's Portfolio</div>
+                <a className="Toggle-button">
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </a>
+                <div className="Navbar-links">
+                    <ul>
+                        <li><Link className="Navbar-button" to="/contact">Contact</Link></li>
+                        <li><Link className="Navbar-button" to="/about">About Me</Link></li>
+                        <li><Link className="Navbar-button" to="/projects">Projects</Link></li>
+                        {/* <li><Link className="Navbar-button" to="/photos">Photo Gallery</Link></li> */}
+                        <li><Link className="Navbar-button" to="/">Home</Link></li>
+                    </ul>
+                </div>
 
 
-            <div className="Nav-bar">
-                <li><Link className="nav-link" to="/login">Say Hi!</Link></li> 
-                <li><Link className="nav-link" to="/">More</Link></li>
-                <li><Link className="nav-link" to="/about">About</Link></li>
-                <li><Link className="nav-link" to="/shop">Home</Link></li> 
-            </div>
-
-            
-        </div>
+            </div >
 
         )
 
